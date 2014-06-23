@@ -26,6 +26,7 @@
 <!-- CSS ==================================================
 ================================================== -->
 {{HTML::style("css/bootstrap.min.css")}}
+{{HTML::style("css/bootstrap.css")}}
 {{HTML::style("css/base.css")}}
 {{HTML::style("css/skeleton.css")}}
 {{HTML::style("css/screen.css")}}

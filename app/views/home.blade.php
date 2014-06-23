@@ -7,9 +7,9 @@
     <ul class="slides">
         <li> <a href="#"><img src="{{asset('images/flexslider/slide5.png')}}" style="height: 480px;width: 100%" alt=""/></a>
             <p class="flex-caption"">Welcome to Nkinga Health Center  Site. This is example of the Caption Title.</p></li>
-        <li> <a href="#"><img src="{{asset('images/flexslider/slide5.png')}}" style="height: 480px;width: 100%" alt="" /></a>
-            <p class="flex-caption" >Welcome to  Nkinga Health Center  Site. This is example of the Caption Title.</p></li>
         <li> <a href="#"><img src="{{asset('images/flexslider/3.jpg')}}" style="height: 480px;width: 100%" alt="" /></a>
+            <p class="flex-caption" >Welcome to  Nkinga Health Center  Site. This is example of the Caption Title.</p></li>
+        <li> <a href="#"><img src="{{asset('images/flexslider/slide5.png')}}" style="height: 480px;width: 100%" alt="" /></a>
             <p class="flex-caption">Welcome to Nkinga Health Center Site. This is example of the Caption Title.</p>
         </li>
     </ul>
@@ -18,27 +18,25 @@
 ================================================== -->
 <div class="blankSeparator"></div>
 <div class="container">
-    <div class="info">
-        <div class="one_third" style="box-shadow: 0px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
+    <div class="row">
+        <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
             <h2 style="text-align: center;color: #843534">Our Projects</h2>
             <p>Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
                 Dotphics Template is simple and clean template with a lot attention to detail.
                 It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
              </div>
-        <div class="two_third lastcolumn">
-            <div class="two_third" style="box-shadow: 0px 5px 10px  #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
+            <div class="col-md-6" style="box-shadow: 1px 1px 5px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <p style="text-align: center;font-size: 28px; color: #843534">Welcome..!</p>
                 <p style="font-size: 17px">Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
                     Dotphics Template is simple and clean template with a lot attention to detail.
                     It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
                 </div>
-            <div class="one_third lastcolumn" style="box-shadow: 0px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
+            <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <h2 style="text-align: center;color: #843534">Latest News</h2>
                 <p>Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
                     Dotphics Template is simple and clean template with a lot attention to detail.
                     It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
                 </div>
-        </div>
     </div>
 </div>
 <!-- container ends here -->
