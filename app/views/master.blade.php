@@ -11,7 +11,7 @@
 ================================================== -->
 
 <meta charset="utf-8">
-<title>Proximet Responsive Site Template</title>
+<title>Nkinga Health Center</title>
 <meta name="description" content="Place to put your description text">
 <meta name="author" content="">
 <!--[if lt IE 9]>
@@ -25,10 +25,12 @@
 
 <!-- CSS ==================================================
 ================================================== -->
+{{HTML::style("css/bootstrap.min.css")}}
 {{HTML::style("css/base.css")}}
 {{HTML::style("css/skeleton.css")}}
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
+{ HTML::style("font-awesome/css/font-awesome.css")}}
 
 <!-- Favicons ==================================================
 ================================================== -->
@@ -47,24 +49,25 @@
         <!-- Header | Logo, Menu
             ================================================== -->
         <header>
-            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" /></a></div>
             <div class="mainmenu">
                 <div id="mainmenu">
                     <ul class="sf-menu">
-                        <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>Home</a></li>
-                        <li><a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>About</a></li>
-                        <li><a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>Portfolio</a>
-                            <ul>
-                                <li><a href="gallery.html">Portfolio Gallery</a></li>
-                            </ul>
+                        <li><a href="{{url('/')}}" id="visited"><span class="home"><img src="{{asset('images/home.png')}}" alt="" /></span>Home</a></li>
+                        <li><a href="#"><span class="home"><img src="{{asset('images/about.png')}}" alt="" /></span>About Us</a>
+                        <ul>
+                            <li><a href="{{url('history')}}">History</a></li>
+                            <li><a href="{{url('leadership')}}">Leadership</a></li>
+                            <li><a href="{{url('staff')}}">Staff</a></li>
+                        </ul></li>
+                        <li><a href="{{url('services')}}"><span class="home"><img src="{{asset('images/portfolio.png')}}" alt="" /></span>Services</a>
+
                         </li>
-                        <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>Blog</a>
-                            <ul>
-                                <li><a href="singleblog.html">Single Post</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>features</a></li>
-                        <li><a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>Contact</a></li>
+                        <li><a href="{{url('projects')}}"><span class="home"><img src="{{asset('images/shop.png')}}" alt="" /></span>Projects</a></li>
+
+                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Orportunities</a></li>
+                        <li><a href="{{url('contact')}}"><span class="home"><img src="{{asset('images/contact.png')}}" alt="" /></span>Contact Us</a></li>
+                       <li><a href="{{url('login')}}"><i class=""></i></a></li>
                     </ul>
                 </div>
 
@@ -73,118 +76,58 @@
                 <form id="responsive-menu" action="#" method="post">
                     <select>
                         <option value="">Navigation</option>
-                        <option value="index.html">Home</option>
-                        <option value="about.html">About</option>
-                        <option value="portfolio.html">Portfolio</option>
-                        <option value="gallery.html">Portfolio Gallery</option>
-                        <option value="blog.html">Blog</option>
-                        <option value="singleblog.html">Single Post</option>
-                        <option value="features.html">Features</option>
-                        <option value="contact.html">Contact</option>
+                        <option value="{{url('/')}}">Home</option>
+                        <option value="{{url('about')}}">About</option>
+                        <option value="{{url('servises')}}">Services</option>
+                        <option value="{{url('gallery')}}">Portfolio Gallery</option>
+                        <option value="{{url('projects')}}">Projects</option>
+                        <option value="{{url('oportunities')}}">Oportunitie</option>
+                        <option value="{{url('contact')}}">Contact</option>
                     </select>
                 </form>
             </div>
         </header>
     </div>
 </div>
-<!-- Home Content Part - Slider ==================================================
-================================================== -->
-<div class="flexslider">
-    <ul class="slides">
-        <li> <a href="#"><img src="images/flexslider/3.jpg" alt=""/></a> </li>
-        <li> <img src="images/flexslider/6.jpg" alt="" /> </li>
-        <li> <a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>
-            <p class="flex-caption">Welcome to Proximet Site. This is example of the Caption Title.</p>
-        </li>
-    </ul>
-</div>
-<!-- Home Content Part - Box One ==================================================
-================================================== -->
-<div class="blankSeparator"></div>
-<div class="container">
-    <div class="info">
-        <div class="one_third">
-            <h2>New Freebie</h2>
-            <p>Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
-            <a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a> </div>
-        <div class="two_third lastcolumn">
-            <div class="one_half">
-                <h2>Portfolio News</h2>
-                <p>Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
-                <a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a> </div>
-            <div class="one_half lastcolumn">
-                <h2>Proximet News</h2>
-                <p>Proximet is my latest <span class="red">responsive</span> Site Template freebie. Proximet Template is simple and clean template with a lot attention to detail. It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
-                <a href="http://themeforest.net/item/positivo-responsive-and-fresh-wp-theme/2700306?ref=anariel7" title="" class="buttonhome">&rarr; download</a> </div>
-        </div>
-    </div>
-</div>
-<!-- container ends here -->
+@yield('contents')
+
+
 <!-- Home Content Part - Box Two ==================================================
 ================================================== -->
 <div class="container clients">
     <div class="sepContainer"></div>
-    <h2>Our Clients</h2>
-    <div class="one_sixth"> <img src="images/client1.jpg" alt=""/> </div>
+    <h2>Our Partiners</h2>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="images/client2.jpg" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="images/client3.jpg" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="images/client4.jpg" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="images/client5.jpg" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth lastcolumn"> <img src="images/client6.jpg" alt=""/> </div>
+    <div class="one_sixth lastcolumn"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth lastCol -->
 </div>
 <!-- end container -->
-<!-- Home Content Part - Box Three ==================================================
-================================================== -->
-<div class="container boxthree">
-    <div class="sepContainer1"><!-- --></div>
-    <div class="blankSeparator"></div>
-    <div class="one_third">
-        <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
-            <h3>Natural beauty</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class ="simple" href="#">+ Learn more</a> </section>
-    </div>
-    <!-- one-third column ends here -->
-    <div class="one_third">
-        <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
-            <h3>Fashion Love</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class ="simple" href="#">+ Learn more</a> </section>
-    </div>
-    <!-- one-third column ends here -->
-    <div class="one_third lastcolumn">
-        <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
-            <h3>Modern Design Interior</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class ="simple" href="#">+ Learn more</a> </section>
-    </div>
-    <!-- one-third column ends here -->
-</div>
-<!-- container ends here -->
-<div class="blankSeparator1"></div>
 
 <!--Footer ==================================================
 ================================================== -->
 <div id="footer">
     <div class="container footer">
         <div class="one_fourth">
-            <h3>Latest Tweets</h3>
+            <h3>Latest</h3>
             <div id="tweets"></div>
         </div>
         <div class="one_fourth">
-            <h3>Blogroll</h3>
+            <h3>Projectsroll</h3>
             <ul>
-                <li class="lines"><a href="#" title="">Development Blog</a></li>
-                <li class="lines"><a href="#" class="">New Freebies</a></li>
-                <li class="lines"><a href="#" class="">Themeforest Theme</a></li>
-                <li class="lines"><a href="#" class=""> Design News</a></li>
-                <li class="lines"><a href="#" class="">WordPress Theme</a></li>
+                <li class="lines"><a href="#" title="">Development</a></li>
+                <li class="lines"><a href="#" class="">Project Title</a></li>
+                <li class="lines"><a href="#" class="">Project Title</a></li>
+                <li class="lines"><a href="#" class="">Project Title</a></li>
+                <li class="lines"><a href="#" class="">Project Title</a></li>
             </ul>
         </div>
         <div class="one_fourth">
@@ -199,27 +142,29 @@
         </div>
         <div class="one_fourth lastcolumn">
             <h3>About</h3>
-            <p>Proximet is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-            <p>Visit <a href="http://anarieldesign.com/" >Anariel Design</a> and find more interesting things.</p>
+            <p>Dotphics is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
+            <p>Visit <a href="/" >Dotphics</a> and find more interesting things.</p>
         </div>
     </div>
     <!-- container ends here -->
 </div>
+
+
 <!-- footer ends here -->
 <!-- Copyright ==================================================
 ================================================== -->
 <div id="copyright">
     <div class="container">
         <div class="eleven columns alpha">
-            <p class="copyright">&copy; Copyright 2012. &quot;Proximet&quot; by <a href="http://www.anarieldesign.com/">Anariel</a>. All rights reserved.</p>
+            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.</p>
         </div>
         <div class="five columns omega">
             <section class="socials">
                 <ul class="socials fr">
-                    <li><a href="#"><img src="images/socials/twitter.png" class="poshytip" title="Twitter"  alt="" /></a></li>
-                    <li><a href="#"><img src="images/socials/facebook.png" class="poshytip" title="Facebook" alt="" /></a></li>
-                    <li><a href="#"><img src="images/socials/google.png" class="poshytip" title="Google" alt="" /></a></li>
-                    <li><a href="#"><img src="images/socials/dribbble.png" class="poshytip" title="Dribbble" alt="" /></a></li>
+                    <li><a href="#"><img src="{{asset('images/twitter.png')}}" class="poshytip" title="Twitter"  alt="" /></a></li>
+                    <li><a href="#"><img src="{{asset('images/facebook.png')}}" class="poshytip" title="Facebook" alt="" /></a></li>
+                    <li><a href="#"><img src="{{asset('images/google.png')}}" class="poshytip" title="Google" alt="" /></a></li>
+                    <li><a href="#"><img src="{{asset('images/dribbble.png')}}" class="poshytip" title="Dribbble" alt="" /></a></li>
                 </ul>
             </section>
         </div>
@@ -233,23 +178,28 @@
 ================================================== -->
 
 
+{{HTML::script("js/bootstrap.min.js")}}
 {{HTML::script("js/jquery-1.8.0.min.js")}}
 <!-- Main js files -->
 {{HTML::script("js/screen.js")}}
-<!-- Tooltip -->
+<!--<!-- Tooltip -->-->
 {{HTML::script("js/poshytip-1.0/src/jquery.poshytip.min.js")}}
 <!-- Tabs -->
 {{HTML::script("js/tabs.js")}}
-<!-- Tweets -->
+<!--<!-- Tweets -->-->
 {{HTML::script("js/jquery.tweetable.js")}}
-<!-- Include prettyPhoto -->
+<!--<!-- Include prettyPhoto -->-->
 {{HTML::script("js/jquery.prettyPhoto.js")}}
-<!-- Include Superfish -->
+<!--<!-- Include Superfish -->-->
 {{HTML::script("js/superfish.js")}}
 {{HTML::script("js/hoverIntent.js")}}
-<!-- Flexslider -->
-{{HTML::script("js/jquery.flexslider-min.js")}}
+<!--<!-- Flexslider -->-->
+{{HTML::script("js/jquery.flexslider.js")}}
 {{HTML::script("js/modernizr.custom.29473.js")}}
+{{HTML::script("js/jquery.slimscroll.js")}}
+{{HTML::script("js/jquery.slimscroll.min.js")}}
+{{HTML::script("js/carousel.js")}}
+{{ HTML::script("bootstrap/js/bootstrap.js") }}
 
 </head>
 </body>
