@@ -23,7 +23,7 @@
     </div>
     <!-- end one-third column ends here -->
 </div>
-<!-- econtainer ends here -->
+<!-- container ends here -->
 <!-- About Content Part - Box Two ==================================================
 ================================================== -->
 <div class="container">

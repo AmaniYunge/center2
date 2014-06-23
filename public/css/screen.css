@@ -7,7 +7,6 @@ img, embed, object, video {
 /* Deviders */
 div.line {
 	height: 6px;
-	background:url(../images/separator.png) 0 0 no-repeat;
 	border-top:2px solid #cfa0d1;
 	display: block;
 	margin:0;
@@ -66,7 +65,7 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background:#bfd6e4;
+	background:#626879;
 	margin-top:0px;
 	border-bottom:1px solid #6d8696;
 }
@@ -156,7 +155,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	text-decoration:none;
 	text-transform:uppercase;
 	font-weight:600;
-	color: #414558;
+	color: #f5f5f5;
 }
 li a#visited {
 	background: rgba(215, 234, 238, 0.3);
@@ -239,7 +238,7 @@ span.home {
 	padding: 0;
 	background:#fff;
 	border-top:1px solid #efefef;
-	border-bottom:5px solid #89a2b2;
+	border-bottom:5px solid #843534;
 }
 .flexslider .slides > li {
 	display: none;
@@ -293,15 +292,14 @@ html[xmlns] .slides {
 /* IE rgba() hack */
 .flex-caption {
 	zoom: 1;
-	width: 20%;
-	padding: 2%;
+	width: 40%;
+	padding: 8%;
 	margin: 0;
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background:#bfd6e4;
-	color:#414558;
-	font-size: 12px;
+	color:#843534;
+	font-size: 18px;
 	line-height: 15px;
 }
 /* Direction Nav */
@@ -1209,6 +1207,8 @@ span.color {
 .content.right {
 	float: right;
 }
+
+
 
 /* #Media Queries
 ================================================== */
