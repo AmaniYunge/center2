@@ -18,7 +18,7 @@
     <div class="one_third lastcolumn">
         <section class="aboutoneright">
             <h2 style="text-align: center">Our Latest Work</h2>
-            <img src="{{asset('images/logo.png')}}" style="width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
+            <img src="{{asset('images/dot.jpg')}}" style="width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
         </section>
     </div>
     <!-- end one-third column ends here -->

@@ -8,9 +8,9 @@
     <div class="two_third">
         <div class="flexslider">
             <ul class="slides">
-                <li><img src="{{asset('images/12.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/ifm.jpg')}}" alt="" /></li>
                 <li><img src="{{asset('images/2.jpg')}}" alt="" /></li>
-                <li><img src="{{asset('images/3.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/ifm.jpg')}}" alt="" /></li>
             </ul>
         </div>
     </div>

@@ -22,21 +22,15 @@
   ================================================== -->
     <div class="one_third contactsidebar">
         <section class="first">
-            <h3>Blog Navigation</h3>
+            <h3>Contact Us</h3>
             <div class="boxtwosep"></div>
             <ul class="contactsidebarList">
-                <li>123456 Street Name, London</li>
-                <li>Phone: (1800) 987-12341</li>
-                <li>Fax: (1800) 987-12341</li>
+                <li>Nkinga Street, Tabora</li>
+                <li>Phone: +255 684 584 884</li>
+                <li>Fax: +255 684 584 884</li>
                 <li>Website: <a href="#" title="">http://yoursitename.com</a></li>
-                <li>Email: <a href="#" title="">info@proximet.com</a></li>
+                <li>Email: <a href="#" title="">info@dotphics</a></li>
             </ul>
-        </section>
-        <section class="third">
-            <h3>Latest Offers</h3>
-            <div class="boxtwosep"></div>
-            <h5><span class="color">40%</span> Sale &rsaquo;&rsaquo; Love Fashion</h5>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
         </section>
     </div>
     <!-- one_third ends here -->

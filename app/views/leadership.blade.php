@@ -50,7 +50,7 @@
         <div class="toggle-trigger">
             <h2 style="text-align: center">Matron</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/mrs.jpg')}}" alt=""/>
-                <h3>Jacqueline Yunge</h3>
+                <h3>Jacque Yunge</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>
@@ -133,7 +133,7 @@
         <div class="toggle-trigger">
             <h2 style="text-align: center">Matron</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/mrs.jpg')}}" alt=""/>
-                <h3>Jacqueline Yunge</h3>
+                <h3>Jacque Yunge</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>

@@ -16,7 +16,7 @@ class CreateReportsTable extends Migration {
 		{
 			$table->increments('id');
             $table->string('title');
-            $table->file('filename');
+            $table->string('filename');
 			$table->timestamps();
 		});
 	}
