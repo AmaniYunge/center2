@@ -8,8 +8,8 @@
     <div class="two_third">
         <section class="post">
             <h2>News from Dotphics</h2>
-            <p class="meta"> <span class="left">Date: <strong>14 MAY</strong></span><span class="left">posted by <strong>Nkinga Helth Center2</strong></span></p>
-            <img src="{{asset('images/12.jpg')}}" alt=""/>
+            <p class="meta"> <span class="left">Date: <strong>14 MAY</strong></span><span class="left">posted by <strong>Nkinga Helth Center2</strong></span></p><br>
+
             <p>Lorem ipsum dolor sit amet, proscriptum videt ulteriori. Filiam sunt amore nec est cum autem est se in.
                 Cellam sanctissima coniunx in lucem exempli paupers coniunx rex cum autem quod ait regem Ardalio.
                 Filiam sunt amore nec est cum autem est se in.Pellentesque habitant morbi tristique senectus et

@@ -17,7 +17,7 @@ class CreateProjectsTable extends Migration {
 			$table->increments('id');
             $table->string('title');
             $table->string('discr');
-            $table->file('filename');
+            $table->string('filename');
 			$table->timestamps();
 		});
 	}

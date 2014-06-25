@@ -26,11 +26,12 @@
 <!-- CSS ==================================================
 ================================================== -->
 {{HTML::style("css/bootstrap.min.css")}}
+{{HTML::style("css/bootstrap.css")}}
 {{HTML::style("css/base.css")}}
 {{HTML::style("css/skeleton.css")}}
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
-{ HTML::style("font-awesome/css/font-awesome.css")}}
+{{ HTML::style("font-awesome/css/font-awesome.css")}}
 
 <!-- Favicons ==================================================
 ================================================== -->
@@ -44,7 +45,7 @@
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
-<div id="header">
+<div id="header" style="margin-top: -20px">
     <div class="container header">
         <!-- Header | Logo, Menu
             ================================================== -->
@@ -67,7 +68,6 @@
 
                         <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Orportunities</a></li>
                         <li><a href="{{url('contact')}}"><span class="home"><img src="{{asset('images/contact.png')}}" alt="" /></span>Contact Us</a></li>
-                       <li><a href="{{url('login')}}"><i class=""></i></a></li>
                     </ul>
                 </div>
 
@@ -97,17 +97,17 @@
 <div class="container clients">
     <div class="sepContainer"></div>
     <h2>Our Partiners</h2>
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth lastcolumn"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth lastcolumn"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
     <!-- end one_sixth lastCol -->
 </div>
 <!-- end container -->
@@ -156,7 +156,8 @@
 <div id="copyright">
     <div class="container">
         <div class="eleven columns alpha">
-            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.</p>
+            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.&nbsp;&nbsp;<a href="{{url('login')}}"><span class="home"><i class="fa fa-lock"></i></span>login</a></p>
+
         </div>
         <div class="five columns omega">
             <section class="socials">
