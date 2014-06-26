@@ -3,55 +3,14 @@
 <div class="panel panel-default">
 <div class="panel-heading">
     <div class="text-muted bootstrap-admin-box-title">
-        Vaccine&Diluent List
+        Board Members Cv
         <button class="btn btn-primary btn-xs pull-right add" id="add"><i class="fa fa-plus"></i> add</button>
     </div>
 </div>
 <div class="bootstrap-admin-panel-content">
-   @if(Vaccine::all()->count() == 0)
-    <h3>There are no defined vaccines or diluents</h3>
+   @if(Cv::all()->count() == 0)
+    <h3>There are no defined Board Members Cv</h3>
     @else
-    <table class="table table-striped table-bordered" id="example2">
-    <thead>
-    <tr>
-        <th> # </th>
-        <th> GTIN Number </th>
-        <th> Manufacture </th>
-        <th> Short Description </th>
-        <th> Packaging</th>
-        <th> Vials per box</th>
-        <th> Doses per Vial</th>
-        <th> Origin</th>
-        <th> Warning </th>
-        <th> Wastage Rate </th>
-        <th> Schedule </th>
-        <th> Action </th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php $i=1; ?>
-    @foreach(Vaccine::all() as $us)
-    <tr>
-        <td>{{ $i++ }}</td>
-        <td>{{ $us->GTIN }}</td>
-        <td>{{ $us->manufacturer }}</td>
-        <td style="text-transform: capitalize">{{ $us->name }}</td>
-        <td>{{ $us->packaging }}</td>
-        <td>{{ $us->vials_per_box }}</td>
-        <td>{{ $us->doses_per_vial }}</td>
-        <td>{{ $us->country->name }}</td>
-        <td>{{ $us->warning_period }} month</td>
-        <td>{{ $us->wastage }} </td>
-        <td>{{ $us->schedule }} </td>
-        <td id="{{ $us->id }}">
-            <a href="#edit" title="edit Vaccine" class="edituser"><i class="fa fa-pencil text-info"></i> edit</a>&nbsp;&nbsp;&nbsp;
-            <a href="#b" title="delete Vaccine" class="deletevaccine"><i class="fa fa-trash-o text-danger"> delete</i> </a>
-        </td>
-    </tr>
-    @endforeach
-
-    </tbody>
-    </table>
 
     @endif
 </div>

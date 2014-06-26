@@ -57,3 +57,5 @@ Route::get('orportunities', function()
 {
     return View::make('orportunities');
 });
+
+Route::get('admin/cv',array('uses'=>'CvController@index'));

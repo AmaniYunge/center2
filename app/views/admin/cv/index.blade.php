@@ -1,4 +1,4 @@
-@extends("layout.master")
+@extends("admin.master")
 
 @section('title')
 <h1>
@@ -18,8 +18,7 @@
 @section('contents')
     <div class="tab-pane fade in active" id="home">
         <div class="col-sm-12" id="listuser">
-            @include('vaccine.list')
+            @include('admin.cv.list')
         </div>
     </div>
-
 @stop
