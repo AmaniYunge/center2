@@ -26,8 +26,9 @@
         </div>
         <div class="one_fourth lastcolumn">
             <h3>About</h3>
-            <p>Dotphics is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-            <p>Visit <a href="/" >Dotphics</a> and find more interesting things.</p>
+            <p>Lowa Clinic is health institution established by Swedish missionaries firstly a small
+                dispensary.
+            <p>Visit <a href="/" >Our Site</a> and find more interesting things.</p>
         </div>
     </div>
     <!-- container ends here -->

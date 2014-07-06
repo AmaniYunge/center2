@@ -100,17 +100,17 @@
 <div class="container clients">
     <div class="sepContainer"></div>
     <h2>Our Partiners</h2>
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/coat.svg')}}" alt="" style="height: 71px"/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/muhas.jpg')}}" alt=""  style="height: 71px"/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth lastcolumn"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth lastcolumn"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth lastCol -->
 </div>
 <!-- end container -->
