@@ -5,12 +5,14 @@
 ================================================== -->
 <div class="blankSeparator"></div>
 <div class="container portfolio">
+    <div id="divHeaderLine2">Our Projects</div>
+    <div class="sepContainer1"><!-- --></div>
     <div class="two_third">
         <div class="flexslider">
             <ul class="slides">
-                <li><img src="{{asset('images/ifm.jpg')}}" alt="" /></li>
-                <li><img src="{{asset('images/2.jpg')}}" alt="" /></li>
-                <li><img src="{{asset('images/ifm.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/p.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/p2.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/p3.jpg')}}" alt="" /></li>
             </ul>
         </div>
     </div>
@@ -18,7 +20,7 @@
         <h2>The Project Title</h2>
         <p>Semper sit amet bibendum ac, tincidunt sit amet eros. In scelerisque vestibulum tempor. <span class="green">Semper</span> sit amet bibendum ac, tincidunt sit amet eros. In scelerisque vestibulum tempor.</p>
         <h4>Donec commodo tortor pellentesque nisl <span class="red">cursus volutpat</span>. Sed sit amet odio et magna tempor posuere vestibulum ac risus. Sed nec magna dolor.</h4>
-        <p class="portfolio"><a href="#">Project Details</a> | <a href="#">Visit Website</a></p>
+        <p class="portfolio"><a href="{{url('services')}}">Visit services</a></p>
     </div>
 
 <!--<!-- Portfolio Pagination ==================================================-->

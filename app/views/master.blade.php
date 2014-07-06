@@ -11,7 +11,7 @@
 ================================================== -->
 
 <meta charset="utf-8">
-<title>Nkinga Health Center</title>
+<title>Lowa Health Centre</title>
 <meta name="description" content="Place to put your description text">
 <meta name="author" content="">
 <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
 ================================================== -->
 
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<body>
+<body style="font-family: 'Terminal Dosis Light">
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
@@ -66,7 +66,7 @@
                         </li>
                         <li><a href="{{url('projects')}}"><span class="home"><img src="{{asset('images/shop.png')}}" alt="" /></span>Projects</a></li>
 
-                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Orportunities</a></li>
+                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Opportunities</a></li>
                         <li><a href="{{url('contact')}}"><span class="home"><img src="{{asset('images/contact.png')}}" alt="" /></span>Contact Us</a></li>
                     </ul>
                 </div>
@@ -97,17 +97,17 @@
 <div class="container clients">
     <div class="sepContainer"></div>
     <h2>Our Partiners</h2>
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth lastcolumn"> <img src="{{asset('images/dot.jpg')}}" alt=""/> </div>
+    <div class="one_sixth lastcolumn"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth lastCol -->
 </div>
 <!-- end container -->
@@ -121,7 +121,7 @@
             <div id="tweets"></div>
         </div>
         <div class="one_fourth">
-            <h3>Projectsroll</h3>
+            <h3>Projects roll</h3>
             <ul>
                 <li class="lines"><a href="#" title="">Development</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
@@ -131,7 +131,7 @@
             </ul>
         </div>
         <div class="one_fourth">
-            <h3>Archive</h3>
+            <h3>Reports</h3>
             <ul>
                 <li class="lines"><a href="#" class=""> August 2012</a></li>
                 <li class="lines"><a href="#" class="">July 2012</a></li>
@@ -156,7 +156,7 @@
 <div id="copyright">
     <div class="container">
         <div class="eleven columns alpha">
-            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.&nbsp;&nbsp;<a href="{{url('login')}}"><span class="home"><i class="fa fa-lock"></i></span>login</a></p>
+            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.&nbsp;&nbsp;<a href="#myModal"><span class="dropdown"><i class="fa fa-lock" data-toggle="modal"></i>&nbsp;&nbsp;</span>login</a></p>
 
         </div>
         <div class="five columns omega">
@@ -173,6 +173,46 @@
     <!-- container ends here -->
 </div>
 <!-- copyright ends here -->
+
+<!-- Modal for login form -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel" style="font-weight: bolder!important;">Login <span style="font-size:12px!important;">(Only registered users)</span></h3>
+    </div>
+    <div class="modal-body">
+
+        <form method="post" class="form-horizontal" action="{{ url("/contact")}}" id="login_form">
+        <div class="control-group">
+            <label class="control-label" for="inputEmail">Email</label>
+            <div class="controls">
+                <input type="text" class="input-xlarge" style="height:30px;" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputPassword">Password</label>
+            <div class="controls">
+                <input type="password" class="input-xlarge" style="height:30px;" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <label class="checkbox">
+                    <input type="checkbox"> Remember me
+                </label>
+                <div id="output"></div>
+
+            </div>
+        </div>
+        </form>
+
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button type="submit" class="btn btn-success">Ok</button>
+    </div>
+</div>
 <!-- End Document
 ================================================== -->
 <!-- Scripts ==================================================
@@ -180,6 +220,7 @@
 
 
 {{HTML::script("js/bootstrap.min.js")}}
+{{HTML::script("bootstrap/js/bootstrap.js")}}
 {{HTML::script("js/jquery-1.8.0.min.js")}}
 <!-- Main js files -->
 {{HTML::script("js/screen.js")}}
@@ -201,7 +242,6 @@
 {{HTML::script("js/jquery.slimscroll.min.js")}}
 {{HTML::script("js/carousel.js")}}
 {{ HTML::script("bootstrap/js/bootstrap.js") }}
-
 </head>
 </body>
 </html>

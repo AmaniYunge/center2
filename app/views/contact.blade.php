@@ -6,7 +6,7 @@
     <!-- google map -->
     <div class="map-holder">
         <div class="map-container">
-            <iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Munich,+Germany&amp;aq=0&amp;oq=M%C3%BCnchen&amp;sll=37.0625,-95.677068&amp;sspn=53.212719,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Munich,+Upper+Bavaria,+Bavaria,+Germany&amp;t=m&amp;ll=48.23565,11.596069&amp;spn=0.347588,2.635345&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31852.253150665754!2d33.43673696855604!3d-3.6934009712418696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404646302883" width="600" height="450" frameborder="0" style="border:0"></iframe>
             <!-- end google map -->
         </div>
         <!--map-container ends here-->
@@ -25,11 +25,11 @@
             <h3>Contact Us</h3>
             <div class="boxtwosep"></div>
             <ul class="contactsidebarList">
-                <li>Nkinga Street, Tabora</li>
+                <li>Lowa Village, Tabora</li>
                 <li>Phone: +255 684 584 884</li>
                 <li>Fax: +255 684 584 884</li>
-                <li>Website: <a href="#" title="">http://yoursitename.com</a></li>
-                <li>Email: <a href="#" title="">info@dotphics</a></li>
+                <li>Website: <a href="#" title="">www.lowahealthcentre.org</a></li>
+                <li>Email: <a href="#" title="">info@lowahealthcentre</a></li>
             </ul>
         </section>
     </div>
