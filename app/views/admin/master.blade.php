@@ -96,6 +96,7 @@
     {{HTML::script("js/bootstrap.min.js")}}
     <!-- Main js files -->
     {{HTML::script("js/screen.js")}}
+    {{HTML::script("js/jquery.form.js")}}
     <!--<!-- Tooltip -->-->
     {{HTML::script("js/poshytip-1.0/src/jquery.poshytip.min.js")}}
     <!-- Tabs -->
@@ -114,6 +115,9 @@
     {{HTML::script("js/jquery.slimscroll.min.js")}}
     {{HTML::script("js/carousel.js")}}
     {{ HTML::script("bootstrap/js/bootstrap.js") }}
+
+    {{ HTML::script("datatables/jquery.dataTables.js") }}
+    {{ HTML::script("datatables/dataTables.bootstrap.js") }}
 
 </head>
 </body>

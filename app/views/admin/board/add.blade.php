@@ -1,0 +1,71 @@
+
+    <div class="panel panel-default">
+      <div class="panel-body" style="color: #000000">
+         {{ Form::open(array("url"=>url('admin/board/add'),"class"=>"form-horizontal","id"=>'FileUploader')) }}
+
+          <div class='form-group'>
+            <div class='col-sm-6'>
+                First Name <br>  {{ Form::text('fname','',array('class'=>'form-control','placeholder'=>'First Name','required'=>'required')) }}
+            </div>
+              <div class='col-sm-6'>
+                Last Name<br>{{ Form::text('lname','',array('class'=>'form-control','placeholder'=>'Last Name','required'=>'required')) }}
+              </div>
+            </div>
+            <div class='form-group'>
+                <div class='col-sm-6'>
+                    Gender<br>{{ Form::select('type',array(''=>'--Select--','Male'=>'Male','Female'=>'Female'),'',array('class'=>'form-control','required'=>'required')) }}
+                </div>
+                <div class='col-sm-6'>
+                    Occupation<br> {{ Form::text('occu','',array('class'=>'form-control','placeholder'=>'Occupation','required'=>'required')) }}
+               </div>
+            </div>
+          <div class='form-group'>
+              <div class='col-sm-6'>
+                  Phone Number <br> {{ Form::text('phone','',array('class'=>'form-control','placeholder'=>'Phone','required'=>'required')) }}
+              </div>
+              <div class='col-sm-6'>
+                  Email <br> {{ Form::text('email','',array('class'=>'form-control','placeholder'=>'Email','required'=>'required')) }}
+              </div>
+            </div>
+          <div class='form-group'>
+              <div class='col-sm-12'>
+                  Education Level<br>{{ Form::select('edu',array(''=>'--Select--','Certificate'=>'Certificate','Diploma'=>'Diploma','Degree'=>'Degree','Masters'=>'Masters'),'',array('class'=>'form-control','required'=>'required')) }}
+              </div>
+
+            </div>
+
+            <div class='form-group'>
+                    <div class='col-sm-12 '>
+                        Bibliography<br>
+                        {{ Form::textarea('bibli','',array("pattern"=>"\d*",'class'=>'form-control','placeholder'=>'Bibliography','required'=>'required')) }}
+                    </div>
+                </div>
+
+          <div id="output"></div>
+       <div class='col-sm-12 form-group text-center'>
+            {{ Form::submit('Add',array('class'=>'btn btn-primary','id'=>'submitqn')) }}
+            {{ Form::reset('Reset',array('class'=>'btn btn-warning','id'=>'submitqn')) }}
+        </div>
+      {{ Form::close() }}
+    </div>
+      </div>
+    <script>
+        $(document).ready(function (){
+            $('#FileUploader').on('submit', function(e) {
+                e.preventDefault();
+                $("#output").html("<h3><i class='fa fa-spin fa-spinner '></i><span>Making changes please wait...</span><h3>");
+                $(this).ajaxSubmit({
+                    target: '#output',
+                    success:  afterSuccess
+                });
+
+            });
+
+            function afterSuccess(){
+                setTimeout(function() {
+                    $("#myModal").modal("hide");
+                }, 1000);
+                $("#listuser").load("<?php echo url("admin/board_member/list") ?>")
+            }
+        });
+    </script>
