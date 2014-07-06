@@ -6,44 +6,48 @@
 <div class="flexslider">
     <ul class="slides">
           <li>
-             <div class="col-xs-4">
+             <div class="col-md-4">
                  <div id="divHeaderText" class="page-content">
                      <div id="divHeaderLine1">Lowa Health Centre!</div><br>
                      <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
                          Kahama District.
+
                      </div>
+                     <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
              </div>
              </div>
-              <div class="col-xs-8">
+              <div class="col-md-8" style="padding: 0px">
           <img src="{{asset('images/flexslider/slide2.jpg')}}" style="height: 480px;width: 100%">
            </div>
       </li>
 
         <li>
-            <div class="col-xs-8">
+            <div class="col-md-8" style="padding: 0px">
                 <img src="{{asset('images/flexslider/slide.jpg')}}" style="height: 480px;width: 100%">
             </div>
-            <div class="col-xs-4">
+            <div class="col-md-4">
                 <div id="divHeaderText" class="page-content">
                     <div id="divHeaderLine1">Lowa Health Centre!</div><br>
                     <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
                         Kahama District.
                     </div>
+                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
                 </div>
             </div>
 
         </li>
 
         <li>
-            <div class="col-xs-4">
+            <div class="col-md-4">
                 <div id="divHeaderText" class="page-content">
                     <div id="divHeaderLine1">Lowa Health Centre!</div><br>
                     <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
                         Kahama District.
                     </div>
+                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
                 </div>
             </div>
-            <div class="col-xs-8">
+            <div class="col-md-8" style="padding: 0px">
                 <img src="{{asset('images/flexslider/slide3.jpg')}}" style="height: 480px;width: 100%">
             </div>
         </li>
@@ -143,7 +147,7 @@
     <div class="one_third lastcolumn" style="box-shadow: 5px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
         <section class="boxthreeright"> <img src="{{asset('images/suport.jpg')}}" style="height:200px;width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
             <h3 style="text-align: center">Support and Specialized Services</h3>
-           <li style="color: #ac2925"> Laboratory services</li>
+           <h4 style="color: #ac2925"> Laboratory services</h4>
             <p>Laboratory services continued well and busy during 2009. As part of these
                 services, Blood Transfusions services given
                 to patients

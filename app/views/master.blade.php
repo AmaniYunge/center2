@@ -32,16 +32,19 @@
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
 {{ HTML::style("font-awesome/css/font-awesome.css")}}
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 
-<!-- Favicons ==================================================
-================================================== -->
+
+    <!-- Favicons ==================================================
+    ================================================== -->
 
 
 <!-- Google Fonts ==================================================
 ================================================== -->
 
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<body>
+<body >
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
@@ -50,7 +53,7 @@
         <!-- Header | Logo, Menu
             ================================================== -->
         <header>
-            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" /></a></div>
+            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" style="height: 80px"/></a></div>
             <div class="mainmenu">
                 <div id="mainmenu">
                     <ul class="sf-menu">
