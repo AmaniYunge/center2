@@ -11,7 +11,7 @@
 ================================================== -->
 
 <meta charset="utf-8">
-<title>Lowa Health Centre</title>
+<title>Nkinga Health Center</title>
 <meta name="description" content="Place to put your description text">
 <meta name="author" content="">
 <!--[if lt IE 9]>
@@ -32,16 +32,19 @@
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
 {{ HTML::style("font-awesome/css/font-awesome.css")}}
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 
-<!-- Favicons ==================================================
-================================================== -->
+
+    <!-- Favicons ==================================================
+    ================================================== -->
 
 
 <!-- Google Fonts ==================================================
 ================================================== -->
 
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<body style="font-family: 'Terminal Dosis Light">
+<body >
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
@@ -50,7 +53,7 @@
         <!-- Header | Logo, Menu
             ================================================== -->
         <header>
-            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" /></a></div>
+            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" style="height: 80px"/></a></div>
             <div class="mainmenu">
                 <div id="mainmenu">
                     <ul class="sf-menu">
@@ -66,7 +69,7 @@
                         </li>
                         <li><a href="{{url('projects')}}"><span class="home"><img src="{{asset('images/shop.png')}}" alt="" /></span>Projects</a></li>
 
-                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Opportunities</a></li>
+                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Orportunities</a></li>
                         <li><a href="{{url('contact')}}"><span class="home"><img src="{{asset('images/contact.png')}}" alt="" /></span>Contact Us</a></li>
                     </ul>
                 </div>
@@ -99,9 +102,9 @@
     <h2>Our Partiners</h2>
     <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/coat.svg')}}" alt="" style="height: 71px"/> </div>
     <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
+    <div class="one_sixth"> <img src="{{asset('images/muhas.jpg')}}" alt=""  style="height: 71px"/> </div>
     <!-- end one_sixth -->
     <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
     <!-- end one_sixth -->
@@ -114,105 +117,14 @@
 
 <!--Footer ==================================================
 ================================================== -->
-<div id="footer">
-    <div class="container footer">
-        <div class="one_fourth">
-            <h3>Latest</h3>
-            <div id="tweets"></div>
-        </div>
-        <div class="one_fourth">
-            <h3>Projects roll</h3>
-            <ul>
-                <li class="lines"><a href="#" title="">Development</a></li>
-                <li class="lines"><a href="#" class="">Project Title</a></li>
-                <li class="lines"><a href="#" class="">Project Title</a></li>
-                <li class="lines"><a href="#" class="">Project Title</a></li>
-                <li class="lines"><a href="#" class="">Project Title</a></li>
-            </ul>
-        </div>
-        <div class="one_fourth">
-            <h3>Reports</h3>
-            <ul>
-                <li class="lines"><a href="#" class=""> August 2012</a></li>
-                <li class="lines"><a href="#" class="">July 2012</a></li>
-                <li class="lines"><a href="#" class="">Juny 2012</a></li>
-                <li class="lines"><a href="#" class=""> May 2012</a></li>
-                <li class="lines"><a href="#" class="">April 2012</a></li>
-            </ul>
-        </div>
-        <div class="one_fourth lastcolumn">
-            <h3>About</h3>
-            <p>Dotphics is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-            <p>Visit <a href="/" >Dotphics</a> and find more interesting things.</p>
-        </div>
-    </div>
-    <!-- container ends here -->
-</div>
+@include('footer')
 
 
 <!-- footer ends here -->
 <!-- Copyright ==================================================
 ================================================== -->
-<div id="copyright">
-    <div class="container">
-        <div class="eleven columns alpha">
-            <p class="copyright">&copy; Copyright 2012. &quot;Dotphics&quot; by <a href="http://www.dotphics.com/">Dotphics</a>. All rights reserved.&nbsp;&nbsp;<a href="#myModal"><span class="dropdown"><i class="fa fa-lock" data-toggle="modal"></i>&nbsp;&nbsp;</span>login</a></p>
 
-        </div>
-        <div class="five columns omega">
-            <section class="socials">
-                <ul class="socials fr">
-                    <li><a href="#"><img src="{{asset('images/twitter.png')}}" class="poshytip" title="Twitter"  alt="" /></a></li>
-                    <li><a href="#"><img src="{{asset('images/facebook.png')}}" class="poshytip" title="Facebook" alt="" /></a></li>
-                    <li><a href="#"><img src="{{asset('images/google.png')}}" class="poshytip" title="Google" alt="" /></a></li>
-                    <li><a href="#"><img src="{{asset('images/dribbble.png')}}" class="poshytip" title="Dribbble" alt="" /></a></li>
-                </ul>
-            </section>
-        </div>
-    </div>
-    <!-- container ends here -->
-</div>
 <!-- copyright ends here -->
-
-<!-- Modal for login form -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel" style="font-weight: bolder!important;">Login <span style="font-size:12px!important;">(Only registered users)</span></h3>
-    </div>
-    <div class="modal-body">
-
-        <form method="post" class="form-horizontal" action="{{ url("/contact")}}" id="login_form">
-        <div class="control-group">
-            <label class="control-label" for="inputEmail">Email</label>
-            <div class="controls">
-                <input type="text" class="input-xlarge" style="height:30px;" id="inputEmail" placeholder="Email">
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="inputPassword">Password</label>
-            <div class="controls">
-                <input type="password" class="input-xlarge" style="height:30px;" id="inputPassword" placeholder="Password">
-            </div>
-        </div>
-        <div class="control-group">
-            <div class="controls">
-                <label class="checkbox">
-                    <input type="checkbox"> Remember me
-                </label>
-                <div id="output"></div>
-
-            </div>
-        </div>
-        </form>
-
-
-    </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-        <button type="submit" class="btn btn-success">Ok</button>
-    </div>
-</div>
 <!-- End Document
 ================================================== -->
 <!-- Scripts ==================================================
@@ -220,7 +132,6 @@
 
 
 {{HTML::script("js/bootstrap.min.js")}}
-{{HTML::script("bootstrap/js/bootstrap.js")}}
 {{HTML::script("js/jquery-1.8.0.min.js")}}
 <!-- Main js files -->
 {{HTML::script("js/screen.js")}}
@@ -242,6 +153,7 @@
 {{HTML::script("js/jquery.slimscroll.min.js")}}
 {{HTML::script("js/carousel.js")}}
 {{ HTML::script("bootstrap/js/bootstrap.js") }}
+
 </head>
 </body>
 </html>

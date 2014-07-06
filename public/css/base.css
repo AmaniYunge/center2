@@ -110,9 +110,10 @@ h6 {
 p {
 	color: #5e637b;
 	line-height:1.5em;
-	font-size:14px;
+	font-size:16px;
 	margin: 0 0 15px 0;
-	font-family: 'PT Serif', serif;
+	font-family: Roboto;
+    font-weight: 300;
 }
 p.last {
 	margin-bottom:0;
