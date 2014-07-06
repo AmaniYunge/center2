@@ -39,11 +39,11 @@
         <li>
             <div class="col-md-4">
                 <div id="divHeaderText" class="page-content">
-                    <div id="divHeaderLine1">Lowa Health Centre!</div><br>
-                    <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
-                        Kahama District.
+                    <div id="divHeaderLine1">Need and future plan!</div><br>
+                    <div id="divHeaderLine2">Training of more staff to improve the quality of health services rendered to the
+                        people.
                     </div>
-                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
+                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Read More</div>
                 </div>
             </div>
             <div class="col-md-8" style="padding: 0px">
