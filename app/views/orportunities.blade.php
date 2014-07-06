@@ -5,10 +5,12 @@
 ================================================== -->
 <div class="blankSeparator"></div>
 <div class="container ">
+    <div id="divHeaderLine2">Available Oppotunities</div>
+    <div class="sepContainer1"><!-- --></div>
     <div class="two_third">
         <section class="post">
-            <h2>News from Dotphics</h2>
-            <p class="meta"> <span class="left">Date: <strong>14 MAY</strong></span><span class="left">posted by <strong>Nkinga Helth Center2</strong></span></p><br>
+            <h2>News from <strong>Lowa Health Centre</strong></h2>
+            <p class="meta"> <span class="left">Date: <strong>14 MAY</strong></span><span class="left">posted by <strong>Lowa Helth Centre</strong></span></p><br>
 
             <p>Lorem ipsum dolor sit amet, proscriptum videt ulteriori. Filiam sunt amore nec est cum autem est se in.
                 Cellam sanctissima coniunx in lucem exempli paupers coniunx rex cum autem quod ait regem Ardalio.

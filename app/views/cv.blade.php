@@ -5,7 +5,7 @@
 ================================================== -->
 <div class="blankSeparator"></div>
 <div class="container resume">
-    <h2>Nkinga Health Center2 Resume</h2>
+    <h2>Chair Person, <strong>Lowa Health Centre</strong> Resume</h2>
     <p>Lorem ipsum dolor sit amet, Mauris laoreet nulla at dui consectetur vel elementum justo tempor. Sed erat dui, sagittis a pharetra ut, tempor erat dui, sagittis a pharetra ut, tempor vel turpis. Vestibulum blandit ultricies tempus. Phasellus sollicitudin quam vitae eros aliquam viverra.</p>
     <div class="one_third">
         <h3>Work Experience</h3>
