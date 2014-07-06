@@ -11,7 +11,7 @@
 ================================================== -->
 
 <meta charset="utf-8">
-<title>Nkinga Health Center</title>
+<title>Lowa Health Centre</title>
 <meta name="description" content="Place to put your description text">
 <meta name="author" content="">
 <!--[if lt IE 9]>

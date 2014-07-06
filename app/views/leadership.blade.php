@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-3" style="box-shadow: 5px 5px 10px #888888; background-color: #bfd6e4">
             <h2 style="text-align: center">Clinical Officer &nbsp;&nbsp;&nbsp;Incharge</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/kifutumo.jpg')}}" style="box-shadow: 1px 1px 5px #888888" alt=""/>
+            <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px" alt=""/>
                 <h3>Amani Yunge</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                  </section>
@@ -49,90 +49,6 @@
     <!-- row ends here -->
     <p class="lead" style="text-align: center;font-size: 28px">Meet The Team</p>
     <div class="sepContainer1"><!-- --></div>
-    <div class="row">
-        <h2>Available Staff</h2>
-        <p>
-            One Clinical Officer terminated his employment. For so called trained staff, though with
-            difficult, the facility managed to pay them their basic salaries accordingly in order to still
-            be able to recruit/keep those highly needed staff carders.<br>
-            There were staffs of different cadres as follows: </p>
-    </div>
-    <div class="row">
-    <div class="col-md-3">
-    <h3>Designation </h3>
-       </div>
-        <div class="col-md-3">
-            <h3>Recommended Staff</h3>
-        </div>
-        <div class="col-md-3">
-            <h3>Available </h3>
-        </div>
-        <div class="col-md-3">
-            <h3>Needed</h3>
-        </div>
-    </div>
-
-    <div class="row">
-
-       <table  style="color: #647884; font-size: 15px">
-           <tr>
-               <td style="width: 100px">Clinical Officer</td>
-               <td style="width: 100px">2</td>
-               <td style="width: 100px"></td>
-               <td style="width: 100px"></td>
-           </tr>
-           <tr>
-               <td> Nurse Officer</td>
-               <td></td>
-               <td></td>
-               <td> </td>
-           </tr>
-           <tr>
-               <td>Nurse Midwife</td>
-               <td>3</td>
-               <td> </td>
-               <td> </td>
-           </tr>
-           <tr>
-               <td> Trained Nurse</td>
-               <td> 1 </td>
-               <td> </td>
-               <td></td>
-           </tr>
-           <tr>
-               <td> Accountant</td>
-               <td>1</td>
-               <td> </td>
-               <td> </td>
-           </tr>
-           <tr>
-               <td> Laboratory Assistant </td>
-               <td> 2</td>
-               <td></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td> Laboratory Technician</td>
-               <td>  1 </td>
-               <td></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td>Medical Attendants </td>
-               <td> 6</td>
-               <td></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td>Others</td>
-               <td>4</td>
-               <td></td>
-               <td></td>
-           </tr>
-
-       </table>
-    </div>
-
 
 
 </div>
