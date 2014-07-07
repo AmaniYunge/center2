@@ -126,7 +126,6 @@
             <div class="toggle-trigger">
                 <a class ="simple" href="#">+ Learn more</a></div>
             <div class="toggle-container">
-                <li style="color: #ac2925">Health Education including prevention of HIV/AIDS </li>
                <li style="color: #ac2925"> Reproductive health services</li>.
                 <p> This has remained one of our major goals and ultimately contributing to achievement of the Millennium Development Goals (MDGs) – improving maternal and child health. Static services at facilities are supported by mobile clinic in the communities.  It the policy of the government for Mother and Child Health care to be provided free of charge which include immunization, child growth monitoring, antenatal care and family planning. A little fee is chargeable only for deliveries.   As the major causes of deaths for mothers and children are associated with poor hygiene, ignorance, malnutrition, poor physical infrastructure, these services contribute to the reduction of maternal and infant mortality rates in the communities.
 
