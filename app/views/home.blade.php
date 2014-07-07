@@ -82,7 +82,7 @@
                     Gradually it has developed and upgraded to become a Health Centre in 1995.
                 </p>
                 </div>
-            <div class="col-md-3 inner-div" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
+            <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <div class="inner-div">
                     <h2 style="text-align: center;color: #843534">Latest News</h2>
                     <h4>News Heading</h4>
