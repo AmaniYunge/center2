@@ -26,8 +26,8 @@
             <div class="boxtwosep"></div>
             <ul class="contactsidebarList">
                 <li>Lowa Village, Tabora</li>
-                <li>Phone: +255 684 584 884</li>
-                <li>Fax: +255 684 584 884</li>
+                <li>Phone: +255 786 453 463</li>
+                <li>Fax: +255 767 453 463</li>
                 <li>Website: <a href="#" title="">www.lowahealthcentre.org</a></li>
                 <li>Email: <a href="#" title="">info@lowahealthcentre</a></li>
             </ul>
@@ -42,7 +42,7 @@
                 <div class="name">
                     <label for="name">Your Name:</label>
                     <p> Please enter your full name</p>
-                    <input id=name name=email type=text placeholder="e.g. Mr. John Smith" required />
+                    <input id=name name=email type=text placeholder="e.g. Mr. Peter Raphael" required />
                 </div>
                 <div class="email">
                     <label for="email">Your Email:</label>

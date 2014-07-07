@@ -17,13 +17,44 @@
         </div>
     </div>
     <div class="one_third lastcolumn">
-        <h2>The Project Title</h2>
-        <p>Semper sit amet bibendum ac, tincidunt sit amet eros. In scelerisque vestibulum tempor. <span class="green">Semper</span> sit amet bibendum ac, tincidunt sit amet eros. In scelerisque vestibulum tempor.</p>
-        <h4>Donec commodo tortor pellentesque nisl <span class="red">cursus volutpat</span>. Sed sit amet odio et magna tempor posuere vestibulum ac risus. Sed nec magna dolor.</h4>
+
+        <h2>Upgrading of infrastructures</h2>
+        <p>Currently we are renovating and extending the building in order to cope with today’s changing environment.
+        One building is being extended and renovated to be a theater for emergency and planned surgeries.
+        The major purpose is to bring these services closer to the community. At present, patients are referred to
+       <span class="green"> Kahama District hospital</span> which is about 27 kms away from Lowa. Additionally, another building is renovated and
+        extended to provide private rooms for patients requiring such services.
+        </p><p> </p>
+         <h4>The private rooms will contribute to increase
+             in revenues that will help to <span class="red">subsidize treatment costs</span> for the poorest of the poor!</h4>
         <p class="portfolio"><a href="{{url('services')}}">Visit services</a></p>
     </div>
 
-<!--<!-- Portfolio Pagination ==================================================-->
+    <div class="two_third">
+        <div class="flexslider">
+            <ul class="slides">
+                <li><img src="{{asset('images/p.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/p2.jpg')}}" alt="" /></li>
+                <li><img src="{{asset('images/p3.jpg')}}" alt="" /></li>
+            </ul>
+        </div>
+    </div>
+    <div class="one_third lastcolumn">
+
+        <h2>Water Projects</h2>
+        <p>Our institution faces a severe shortage of water and is a great problem to both patients and staff.
+        The available borehole does not meet the current demand of water supplied to the institution.
+        As a matter of fact, a project for drilling another borehole will be implemented this year.
+        This project requires a huge investment which too expensive for our institution to afford.</p>
+        <h4>Thanks to our development partners in Sweden namely <span class="red">Atlascopco Company and Ostersund Pentecostal
+        Church in Sweden</span> for their interest to support the project. The overall objective of the project is
+        to contribute to Lowa Health center access to safe and clean water through drilling borehole and ultimately
+        improve the health status of patients, staff and the community.</h4>
+
+        <p class="portfolio"><a href="{{url('services')}}">Visit services</a></p>
+    </div>
+
+<!--<!-- projects Pagination ==================================================-->
 <!--================================================== -->
 <!--<div class="container">-->
 <!--    <div class="blankSeparator"></div>-->

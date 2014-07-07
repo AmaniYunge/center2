@@ -59,10 +59,13 @@
     <div class="row">
         <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
             <h2 style="text-align: center;color: #843534">Our Projects</h2>
-            <p>Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
-                Dotphics Template is simple and clean template with a lot attention to detail.
-                It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
-             </div>
+            <h4><strong>Water Projects</strong></h4>
+            <p>Our institution faces a severe shortage of water and is a great problem to both <span class="red"> patients and staff.</span>
+                The available borehole does not  <span class="green">meet the current demandt</span> of water supplied to the institution.</p>
+            <h4><strong>Upgrading of infrastructures</strong></h4>
+            <p>Currently we are<span class="red"> renovating and extending</span>  the building in order to cope with today’s changing environment.
+                One building is being extended and renovated to be a theater for emergency and planned surgeries.</p>
+        </div>
             <div class="col-md-6" style="box-shadow: 1px 1px 5px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <p style="text-align: center;font-size: 28px; color: #843534">Welcome..!</p>
                 <p style="font-size: 17px">

@@ -8,10 +8,9 @@
     <div class="two_third">
         <section class="aboutoneleft">
             <h2>Historical Background</h2>
-            <p>Lowa Clinic is health institution established by Swedish missionaries firstly a small
-                dispensary. This kind of the social work within The Free Pentecostal Church in
-                Tanzania (FPCT) was part and parcel of evangelism which already started in the 1930’s.
-                Gradually it has developed and upgraded to become a Health Centre in 1995.
+            <p>This institution was established in 1930’s by Swedish missionaries firstly a small dispensary as part and parcel of evangelism
+                which contained some elements of medical care. This kind of social work has gradually developed and upgraded to become a
+                Health Center with 60beds in 1994.
             </p>
             <img class="raster" src="{{asset('images/raster.png')}}" alt=""/>
             <p class="quote" style="font-size: 14px">The clinic is located in western part of Tanzania in a small village namely Lowa in

@@ -9,7 +9,7 @@
     <div class="sepContainer1"><!-- --></div>
     <div class="row">
         <div class="col-md-3" style="box-shadow: 5px 5px 10px #888888; background-color: #bfd6e4">
-            <h2 style="text-align: center">Clinical Officer &nbsp;&nbsp;&nbsp;Incharge</h2>
+            <h2 style="text-align: center">Chairperson</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px" alt=""/>
                 <h3>Amani Yunge</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -28,12 +28,8 @@
                 <a class ="simple" href="{{url('cv')}}">+ My CV</a> </div>
         </div>
         <div class="col-md-9">
-          <p style="font-size: 18px">The Health Board which is the highest decisions making organ in FPCT Health
-              Department and its major roles being setting policies on health and medical services and
-              giving out guidelines to facilitate a smooth running of our units. It is also an overseer
-              when local committees fail to perform duties.
-                </p><p style="font-size: 18px">
-                The institution operates under the committee but running of day to day activities is
+          <p style="font-size: 18px">
+                The institution operates under the board but running of day to day activities is
                 carried out by a Management Team. The team works under the leadership of Clinical
                 Officer Incharge and reports to FPCT Health department Head Office - Health Co-
                 ordination Office (H.C.O.) at Nkinga. Other members of the management team are Nurse
@@ -47,7 +43,7 @@
     </div>
 
     <!-- row ends here -->
-    <p class="lead" style="text-align: center;font-size: 28px">Meet The Team</p>
+    <p class="lead" style="text-align: center;font-size: 28px">Meet The Board Members</p>
     <div class="sepContainer1"><!-- --></div>
 
 
