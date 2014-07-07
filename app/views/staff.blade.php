@@ -3,13 +3,14 @@
 
 <div class="container boxthree">
     <div class="blankSeparator"></div>
-    <p class="lead" style="text-align: center;font-size: 28px">Staff</p>
+    <p class="lead" style="text-align: center;font-size: 28px">Administrative Staff</p>
     <div class="sepContainer1"><!-- --></div>
+
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
-            <h2 style="text-align: center">Clinical Officer &nbsp;&nbsp;&nbsp;Incharge</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/kifutumo.jpg')}}" alt=""/>
-                <h3>Amani Yunge</h3>
+            <h2 style="text-align: center">Doctor&nbsp;Incharge</h2>
+            <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+                <h3>Dr. Simon Gabriel</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>
@@ -26,9 +27,9 @@
 
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
-            <h2 style="text-align: center">Administrative &nbsp;&nbsp;&nbsp;Manager</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/1.jpg')}}" alt=""/>
-                <h3>Amani Yunge</h3>
+            <h2 style="text-align: center">Administrative & Project Manager</h2>
+            <section class="boxthreecenter"> <img src="{{asset('images/4.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px; width:150px" alt=""/>
+                <h3>Peter Raphael</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>
@@ -46,8 +47,8 @@
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Matron</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/mrs.jpg')}}" alt=""/>
-                <h3>Jacque Yunge</h3>
+            <section class="boxthreecenter"> <img src="{{asset('images/3.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+                <h3>Anna Mihayo</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>
@@ -66,8 +67,8 @@
     <div class="one_fourth lastcolumn" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Accountant</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/1.jpg')}}" alt=""/>
-                <h3>Amani Yunge</h3>
+            <section class="boxthreecenter"> <img src="{{asset('images/5.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+                <h3>Theodorah Makanza</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class ="simple" href="#">+ Learn more</a> </section>
         </div>
@@ -81,6 +82,113 @@
                 Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p> </div>
     </div>
     <!-- one-third column ends here -->
+
+    <div class="blankSeparator"></div>
+    <p class="lead" style="text-align: center;font-size: 28px">Other Staff Members</p>
+    <div class="sepContainer1"><!-- --></div>
+
+    <div class="row" style="color: #647884; font-size: 14px">
+        <div class="col-md-6">
+            <li>Vesdatina Simon – Enrolled Nurse</li>
+            <li>Ibrahim Saulo - Enrolled Nurse</li>
+            <li>Lilian Mdalaga – Assistant Nurse Officer</li>
+            <li>Lameck Bidashi - Assistant Laboratory Technologist</li>
+            <li>Lameck Nalompa – Assistant Laboratory Technologist</li>
+            <li> Marysiana Joseph – Medical Attendant</li>
+            <li> Penina Kigalaba – Medical Attendant</li>
+
+        </div>
+        <div class="col-md-6">
+            <li>Josephina Josiah – Medical Attendant</li>
+            <li>  Elizabeth Jacob – Medical Attendant</li>
+            <li> Robert Masolwa - Driver</li>
+            <li>Charles Mayala - Outworker</li>
+            <li> Abel Magobeko – Security Guard</li>
+            <li> Masumbuko Andrea – Security Guard</li>
+            <li> Shija Masongwe - Security Guard</li>
+        </div>
+
+    </div>
+    <div class="sepContainer1"><!-- --></div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Designation </h3>
+        </div>
+        <div class="col-md-3">
+            <h3>Recommended Staff</h3>
+        </div>
+        <div class="col-md-3">
+            <h3>Available </h3>
+        </div>
+        <div class="col-md-3">
+            <h3>Needed</h3>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <table  style="color: #647884; font-size: 15px">
+            <tr>
+                <td style="width: 100px">Clinical Officer</td>
+                <td style="width: 100px">2</td>
+                <td style="width: 100px"></td>
+                <td style="width: 100px"></td>
+            </tr>
+            <tr>
+                <td> Nurse Officer</td>
+                <td></td>
+                <td></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>Nurse Midwife</td>
+                <td>3</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> Trained Nurse</td>
+                <td> 1 </td>
+                <td> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> Accountant</td>
+                <td>1</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> Laboratory Assistant </td>
+                <td> 2</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> Laboratory Technician</td>
+                <td>  1 </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Medical Attendants </td>
+                <td> 6</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Others</td>
+                <td>4</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
 </div>
 <!-- container ends here -->
 <div class="blankSeparator1"></div>

@@ -34,17 +34,16 @@
                     <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
                 </div>
             </div>
-
         </li>
 
         <li>
             <div class="col-md-4">
                 <div id="divHeaderText" class="page-content">
-                    <div id="divHeaderLine1">Lowa Health Centre!</div><br>
-                    <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
-                        Kahama District.
+                    <div id="divHeaderLine1">Need and future plan!</div><br>
+                    <div id="divHeaderLine2">Training of more staff to improve the quality of health services rendered to the
+                        people.
                     </div>
-                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
+                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Read More</div>
                 </div>
             </div>
             <div class="col-md-8" style="padding: 0px">
@@ -60,10 +59,13 @@
     <div class="row">
         <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
             <h2 style="text-align: center;color: #843534">Our Projects</h2>
-            <p>Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
-                Dotphics Template is simple and clean template with a lot attention to detail.
-                It is suitable for a lot of <span class="green">different</span> business and private uses.</p>
-             </div>
+            <h4><strong>Water Projects</strong></h4>
+            <p>Our institution faces a severe shortage of water and is a great problem to both <span class="red"> patients and staff.</span>
+                The available borehole does not  <span class="green">meet the current demandt</span> of water supplied to the institution.</p>
+            <h4><strong>Upgrading of infrastructures</strong></h4>
+            <p>Currently we are<span class="red"> renovating and extending</span>  the building in order to cope with today’s changing environment.
+                One building is being extended and renovated to be a theater for emergency and planned surgeries.</p>
+        </div>
             <div class="col-md-6" style="box-shadow: 1px 1px 5px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <p style="text-align: center;font-size: 28px; color: #843534">Welcome..!</p>
                 <p style="font-size: 17px">
@@ -91,9 +93,9 @@
     <div class="one_third" style="box-shadow: 5px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
         <section class="boxthreeleft"> <img src="{{asset('images/curativ.jpg')}}" style="height:200px;width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
             <h3 style="text-align: center">Curative Services</h3><br>
-            <p>Patient attendance figures for both outpatient and inpatients wards were
-                reasonable. This group of patients has since long been the major contributor of
-                patient fees for running costs.
+            <p>It include both outpatient and inpatient services. The services are open from Monday to Friday as
+                normal working days but Saturdays, Sundays and Public Holidays are also open to handle emergencies cases.
+                Outpatient services is the first reception point where patients are seen before are sent to other departments.
             </p>
             <div class="toggle-trigger">
                 <a class ="simple" href="#">+ Learn more</a></div>
@@ -117,27 +119,21 @@
     <div class="one_third" style="box-shadow: 5px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
         <section class="boxthreecenter"> <img src="{{asset('images/preventive.jpg')}}" style="height:200px;width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
             <h3 style="text-align: center">Preventive Services</h3><br>
-            <p>Prevention of preventable diseases has remained one of our major goals</p>
+            <p>Prevention of preventable diseases has remained one of our major goals.It the policy of the government for Mother and
+                Child Health care to be provided free of charge which include immunization, child
+                growth monitoring, antenatal care and family planning.</p>
             <li style="color: #ac2925">Reproductive health services </li>
-            <li style="color: #ac2925">Health Education including prevention of HIV/AIDS </li>
             <div class="toggle-trigger">
                 <a class ="simple" href="#">+ Learn more</a></div>
             <div class="toggle-container">
+                <li style="color: #ac2925">Health Education including prevention of HIV/AIDS </li>
                <li style="color: #ac2925"> Reproductive health services</li>.
-                <p> This kind of services has continued well. It the
-                    policy of the government for Mother and Child Health care to be provided free of
-                    charge but a little fee is chargeable only for deliveries which is in turn reimbursed
-                    by the local government. Services provided include immunization, child growth
-                    monitoring, antenatal care and family planning. Outreach visits for these services
-                    are conducted to other distant villages of Kidunyashi (2.5 km) and Bukooba (8 km).
-                    As the major causes of deaths for mothers and children are associated with poor
-                    hygiene, ignorance, malnutrition, poor physical infrastructure, preventive services
-                    has great contribution to the reduction of maternal and infant mortality rates
+                <p> This has remained one of our major goals and ultimately contributing to achievement of the Millennium Development Goals (MDGs) – improving maternal and child health. Static services at facilities are supported by mobile clinic in the communities.  It the policy of the government for Mother and Child Health care to be provided free of charge which include immunization, child growth monitoring, antenatal care and family planning. A little fee is chargeable only for deliveries.   As the major causes of deaths for mothers and children are associated with poor hygiene, ignorance, malnutrition, poor physical infrastructure, these services contribute to the reduction of maternal and infant mortality rates in the communities.
+
                 </p>
 
                 <li style="color: #ac2925"> Health Education including prevention of HIV/AIDS.</li>.
-                <p> There is no special program for health education but this is normally integrated during reproductive
-                    health services out reach to villages visited.
+                <p> There is no special program for health education but this is normally integrated in reproductive health services.
 
                 </p>
                  </div>
@@ -148,9 +144,9 @@
         <section class="boxthreeright"> <img src="{{asset('images/suport.jpg')}}" style="height:200px;width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
             <h3 style="text-align: center">Support and Specialized Services</h3>
            <h4 style="color: #ac2925"> Laboratory services</h4>
-            <p>Laboratory services continued well and busy during 2009. As part of these
-                services, Blood Transfusions services given
-                to patients
+            <p>Laboratory examinations are carried out as daily routines in order to provide the patients with right treatment.
+                The laboratory tests performed ranges from basic microscopy to hematological test. As we continue to upgrade our services,
+                more tests will continue to be introduced
 
             </p>
             <div class="toggle-trigger">
@@ -164,7 +160,10 @@
                     hospital which is located in Kahama about
                     30 km away from Lowa.
                 </p>
-
+                <h4 style="color: #ac2925"> Dental services</h4>
+                  <p>These are provided not only to patients just from nearby, but also from other distant villages. These are mainly dental checkups,
+                      dental extractions and health education. For those patients requiring dental fillings and scaling, they are referred to
+                      Nkinga Referral Hospital where major procedures are undertaken. </p>
             </div>
         </section>
     </div>
