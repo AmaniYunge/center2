@@ -34,7 +34,8 @@
 {{ HTML::style("font-awesome/css/font-awesome.css")}}
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-
+    {{HTML::script("js/jquery-1.8.0.min.js")}}
+    {{HTML::script("js/jquery.slimscroll.min.js")}}
 
     <!-- Favicons ==================================================
     ================================================== -->
@@ -132,7 +133,7 @@
 
 
 {{HTML::script("js/bootstrap.min.js")}}
-{{HTML::script("js/jquery-1.8.0.min.js")}}
+
 <!-- Main js files -->
 {{HTML::script("js/screen.js")}}
 <!--<!-- Tooltip -->-->
@@ -149,8 +150,6 @@
 <!--<!-- Flexslider -->-->
 {{HTML::script("js/jquery.flexslider.js")}}
 {{HTML::script("js/modernizr.custom.29473.js")}}
-{{HTML::script("js/jquery.slimscroll.js")}}
-{{HTML::script("js/jquery.slimscroll.min.js")}}
 {{HTML::script("js/carousel.js")}}
 {{ HTML::script("bootstrap/js/bootstrap.js") }}
 

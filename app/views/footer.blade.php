@@ -1,14 +1,39 @@
 <div id="footer">
     <div class="container footer">
         <div class="one_fourth">
-            <h3>Latest</h3>
+
+                <h3>Get in Touch</h3>
+
+                <ul id="contact-info">
+                    <li>
+                        <i class="general foundicon-phone icon"></i>
+                        <span class="field">Phone:</span>
+                        <br />
+                        +255 786 453 463
+                    </li>
+                    <li>
+                        <i class="general foundicon-mail icon"></i>
+                        <span class="field">Email:</span>
+                        <br />
+                        <a href="mailto:info@yourdomain.com" title="Email">info@lowahealtthcentre.com</a>
+                    </li>
+                    <li>
+                        <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
+                        <span class="field">Address:</span>
+                        <br />
+                        Lowa Viillage<br />
+                        Kahama District, Shinyanga<br />
+                        Tanzania
+                    </li>
+                </ul>
+
             <div id="tweets"></div>
         </div>
         <div class="one_fourth">
             <h3>Projectsroll</h3>
             <ul>
-                <li class="lines"><a href="#" title="">Development</a></li>
-                <li class="lines"><a href="#" class="">Project Title</a></li>
+                <li class="lines"><a href="#" title="">Water Projects</a></li>
+                <li class="lines"><a href="#" class="">Upgrading of Infrastructures</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
