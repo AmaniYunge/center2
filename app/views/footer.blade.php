@@ -9,7 +9,8 @@
                         <i class="general foundicon-phone icon"></i>
                         <span class="field">Phone:</span>
                         <br />
-                        +255 786 453 463
+                        +255 786 453 463<br>
+                        +255 767 453 463
                     </li>
                     <li>
                         <i class="general foundicon-mail icon"></i>
