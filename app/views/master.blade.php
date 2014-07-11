@@ -62,7 +62,7 @@
                         <li><a href="#"><span class="home"><img src="{{asset('images/about.png')}}" alt="" /></span>About Us</a>
                         <ul>
                             <li><a href="{{url('history')}}">History</a></li>
-                            <li><a href="{{url('leadership')}}">Leadership</a></li>
+                            <li><a href="{{url('leadership')}}">Leadership & Governance</a></li>
                             <li><a href="{{url('staff')}}">Staff</a></li>
                         </ul></li>
                         <li><a href="{{url('services')}}"><span class="home"><img src="{{asset('images/portfolio.png')}}" alt="" /></span>Services</a>
@@ -70,7 +70,6 @@
                         </li>
                         <li><a href="{{url('projects')}}"><span class="home"><img src="{{asset('images/shop.png')}}" alt="" /></span>Projects</a></li>
 
-                        <li><a href="{{url('orportunities')}}"><span class="home"><img src="{{asset('images/features.png')}}" alt="" /></span>Orportunities</a></li>
                         <li><a href="{{url('contact')}}"><span class="home"><img src="{{asset('images/contact.png')}}" alt="" /></span>Contact Us</a></li>
                     </ul>
                 </div>
@@ -85,7 +84,7 @@
                         <option value="{{url('servises')}}">Services</option>
                         <option value="{{url('gallery')}}">Portfolio Gallery</option>
                         <option value="{{url('projects')}}">Projects</option>
-                        <option value="{{url('oportunities')}}">Oportunitie</option>
+                        <option value="{{url('oportunities')}}">Opportunities</option>
                         <option value="{{url('contact')}}">Contact</option>
                     </select>
                 </form>

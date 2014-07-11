@@ -25,7 +25,8 @@
             <h3>Contact Us</h3>
             <div class="boxtwosep"></div>
             <ul class="contactsidebarList">
-                <li>Lowa Village, Tabora</li>
+                <li>Lowa Health Centre,</li>
+                <li>P.o Box:107,Kahama - Tanzania</li>
                 <li>Phone: +255 786 453 463</li>
                 <li>Fax: +255 767 453 463</li>
                 <li>Website: <a href="#" title="">www.lowahealthcentre.org</a></li>

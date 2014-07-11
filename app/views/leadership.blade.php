@@ -9,7 +9,7 @@
     <div class="sepContainer1"><!-- --></div>
     <div class="row">
         <div class="col-md-3" style="box-shadow: 5px 5px 10px #888888; background-color: #bfd6e4">
-            <h2 style="text-align: center">Chairperson</h2>
+            <h2 style="text-align: center">Board Chair</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px" alt=""/>
                 <h3>Amani Yunge</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -30,10 +30,9 @@
         <div class="col-md-9">
           <p style="font-size: 18px">
                 The institution operates under the board but running of day to day activities is
-                carried out by a Management Team. The team works under the leadership of Clinical
-                Officer Incharge and reports to FPCT Health department Head Office - Health Co-
-                ordination Office (H.C.O.) at Nkinga. Other members of the management team are Nurse
-                Officer Incharge and accountant.
+                carried out by a Management Team. The team works under the leadership of Doctor
+                 Incharge and reports to FPCT Health department Head Office - Health Co-
+                ordination Office (H.C.O.) at Nkinga. Other members of the management team are Matron and accountant.In aditiion, there is Administrative and Projects manager who works with the team on part time basis.
           </p><p style="font-size: 18px">
                 HCO is responsible for medical supervisory roles in all FPCT Health Institutions as well
                 as making internal auditing, giving recruitment assistance as well as upgrading of our

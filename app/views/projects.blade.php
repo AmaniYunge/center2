@@ -19,11 +19,11 @@
     <div class="one_third lastcolumn">
 
         <h2>Upgrading of infrastructures</h2>
-        <p>Currently we are renovating and extending the building in order to cope with today’s changing environment.
-        One building is being extended and renovated to be a theater for emergency and planned surgeries.
+        <p>Currently we are renovating and extending some of  the buildings in order to provide more services and cope  with today’s changing environment in health care.
+        One building is being  renovated and extended to become a theatre for emergency and planned surgeries.
         The major purpose is to bring these services closer to the community. At present, patients are referred to
-       <span class="green"> Kahama District hospital</span> which is about 27 kms away from Lowa. Additionally, another building is renovated and
-        extended to provide private rooms for patients requiring such services.
+       <span class="green"> Kahama District hospital for surgeries.</span> The distance from Lowa to Kahama is  about 27 kms which is to far specifically when it comes for patient emergency cases.
+            Additionally, another building is  under renovation  and  extention to provide private rooms for patients requiring such services.
         </p><p> </p>
          <h4>The private rooms will contribute to increase
              in revenues that will help to <span class="red">subsidize treatment costs</span> for the poorest of the poor!</h4>
@@ -47,7 +47,7 @@
         As a matter of fact, a project for drilling another borehole will be implemented this year.
         This project requires a huge investment which too expensive for our institution to afford.</p>
         <h4>Thanks to our development partners in Sweden namely <span class="red">Atlascopco Company and Ostersund Pentecostal
-        Church in Sweden</span> for their interest to support the project. The overall objective of the project is
+        Church</span> for their interest to support the project. The overall objective of the project is
         to contribute to Lowa Health center access to safe and clean water through drilling borehole and ultimately
         improve the health status of patients, staff and the community.</h4>
 

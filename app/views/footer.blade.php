@@ -22,7 +22,7 @@
                         <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
                         <span class="field">Address:</span>
                         <br />
-                        Lowa Viillage<br />
+                        Lowa Village<br />
                         Kahama District, Shinyanga<br />
                         Tanzania
                     </li>
@@ -33,7 +33,7 @@
         <div class="one_fourth">
             <h3>Projectsroll</h3>
             <ul>
-                <li class="lines"><a href="#" title="">Water Projects</a></li>
+                <li class="lines"><a href="#" title="">Water Project</a></li>
                 <li class="lines"><a href="#" class="">Upgrading of Infrastructures</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
                 <li class="lines"><a href="#" class="">Project Title</a></li>
