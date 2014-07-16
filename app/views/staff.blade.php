@@ -11,17 +11,13 @@
             <h2 style="text-align: center">Doctor&nbsp;Incharge</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Dr. Simon Gabriel</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class ="simple" href="#">+ Learn more</a> </section>
+                <p>Dr. Gabriel holds an Advanced Diploma in Clinical Medicine from Tanzania Training for International Health Institute Ifakara which he completed in 2011.
+                    Before attaining this qualification, he attended trainings in medicine from Songea and Maswa Training Centers</p>
+                <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container">
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum,
-                eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis.
-                Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p> </div>
+            <p>Dr. Simon Gabriel is the overall incharge of the institution. He roles ranges from making contacts with the government authority in the district,
+                ensuring services are provided in line with the government policies and FPCT mission and vision. </p> </div>
     </div>
     <!-- one-third column ends here -->
 
@@ -30,17 +26,14 @@
             <h2 style="text-align: center">Administrative & Project Manager</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/4.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px; width:150px" alt=""/>
                 <h3>Peter Raphael</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class ="simple" href="#">+ Learn more</a> </section>
+                <p>Mr. Raphael is a holder of a Msc. with major in Health Care Management and an MBA in Coperate Management from Swansea Unveristy UK and Mzumbe University in Tanzania respectively.
+                    He has also attended various short courses concerning projects management at Queen’s University, UK and Maastricht School of Management,
+                    The Netherlands. </p>
+                <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container">
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum,
-                eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis.
-                Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p> </div>
+            <p>Working on part time basis, Mr. Peter provides supportive roles on human resources management, project proposals and management.
+                He has an extensive knowledge in administrative and project management issues </p> </div>
     </div>
     <!-- one-third column ends here -->
 
@@ -50,7 +43,7 @@
             <section class="boxthreecenter"> <img src="{{asset('images/3.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Anna Mihayo</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class ="simple" href="#">+ Learn more</a> </section>
+                <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container">
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -68,18 +61,14 @@
         <div class="toggle-trigger">
             <h2 style="text-align: center">Accountant</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/5.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
-                <h3>Theodorah Makanza</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class ="simple" href="#">+ Learn more</a> </section>
+                <h3>Ms. Theodorah Makanza</h3>
+                <p>She attained her diploma course in accountancy from Singida Accountant College in 2012. Prior joining Lowa Health Center in 2013,
+                    she worked with a charity secondary school in Singida for 6 months. </p>
+                <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container">
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-                Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum,
-                eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis.
-                Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p> </div>
+            <p>Ms. Makanza is responsible with financial booking of the institution</p>
+        </div>
     </div>
     <!-- one-third column ends here -->
 

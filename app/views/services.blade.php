@@ -3,9 +3,10 @@
 
 <!-- Home Content Part - Box Three ==================================================
 ================================================== -->
-<div class="container boxthree">
+<div class="blankSeparator"></div>
+<div class="container portfolio">
+    <div id="divHeaderLine2">Our Services</div>
     <div class="sepContainer1"><!-- --></div>
-    <div class="blankSeparator"></div>
     <div class="one_third" style="box-shadow: 5px 5px 10px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
         <section class="boxthreeleft"> <img src="{{asset('images/curativ.jpg')}}" style="height:200px;width: 100%; box-shadow: 1px 1px 5px #888888" alt=""/>
             <h3 style="text-align: center">Curative Services</h3><br>

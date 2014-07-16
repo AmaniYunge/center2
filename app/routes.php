@@ -58,6 +58,11 @@ Route::get('orportunities', function()
     return View::make('orportunities');
 });
 
+Route::get('donation', function()
+{
+    return View::make('donation');
+});
+
 
 /**
  * managing Board members Details

@@ -13,7 +13,7 @@
                          Kahama District.
 
                      </div>
-                     <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
+                     <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px"><a href="{{url('donation')}}">Donation</a></div>
              </div>
              </div>
               <div class="col-md-8" style="padding: 0px">
@@ -31,7 +31,7 @@
                     <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
                         Kahama District.
                     </div>
-                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Donation</div>
+                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px"><a href="{{url('donation')}}">Donation</a></div>
                 </div>
             </div>
         </li>
@@ -87,9 +87,9 @@
                     <h2 style="text-align: center;color: #843534">Latest News</h2>
                     <h4>News Heading</h4>
                     <p>
-                        Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
-                        Dotphics Template is simple and clean template with a lot attention to detail.
-                        It is suitable for a lot of <span class="green">different</span> business and private uses.
+                        In May 2014, our administrative and projects manager travelled to Sweden. Among other places, he visited<span class="red"> Ostersund and
+                        Stokholm</span> where he met with our supporters for the water project.
+                        Thanks to the<span class="green"> Ostersund Pentecostal Church Mission Council and Atlascopco Company </span>for the interest to fund the projec
                     </p>
                     <hr>
                     <h4>News Heading</h4>
