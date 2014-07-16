@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1aa706f-857a-4966-bd90-dc2017d26a8d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/staff.blade.php" afterPath="$PROJECT_DIR$/app/views/staff.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="center2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,7 +116,7 @@
       <file leaf-file-name="staff.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/staff.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="0" selection-start="9027" selection-end="9027" vertical-scroll-proportion="0.75581396" vertical-offset="2435" max-vertical-offset="2865">
+            <state line="100" column="6" selection-start="6432" selection-end="6432" vertical-scroll-proportion="0.3860465" vertical-offset="1334" max-vertical-offset="2880">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -134,7 +135,7 @@
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#7;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -745,7 +746,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/staff.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="0" selection-start="9027" selection-end="9027" vertical-scroll-proportion="0.75581396" vertical-offset="2435" max-vertical-offset="2865">
+        <state line="100" column="6" selection-start="6432" selection-end="6432" vertical-scroll-proportion="0.3860465" vertical-offset="1334" max-vertical-offset="2880">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -764,7 +765,7 @@
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#7;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>

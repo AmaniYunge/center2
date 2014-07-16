@@ -42,7 +42,7 @@
             <h2 style="text-align: center">Matron</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/3.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Anna Mihayo</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                 <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container" style="background-color: #faebcc">
@@ -62,7 +62,7 @@
             <h2 style="text-align: center">Accountant</h2>
             <section class="boxthreecenter"> <img src="{{asset('images/5.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Ms. Theodorah Makanza</h3>
-                <p>She attained her diploma course in accountancy from Singida Accountant </p>
+                <p>She attained her diploma course in accountancy from Singida </p>
                 <a class ="simple" href="#">+ Read more</a> </section>
         </div>
         <div class="toggle-container" style="background-color: #faebcc">
@@ -73,8 +73,10 @@
     <!-- one-third column ends here -->
 
     <div class="blankSeparator"></div>
-    <p class="lead" style="text-align: center;font-size: 28px">Other Staff Members</p>
-    <div class="sepContainer1"><!-- --></div>
+    <div class="col-md-12">
+        <p class="lead" style="text-align: center;font-size: 28px">Other Staff Members</p>
+       <div class="sepContainer1"><!-- --></div>
+    </div>
 
     <div class="row" style="color: #647884; font-size: 14px">
         <div class="col-md-6">
@@ -96,8 +98,7 @@
             <li> Masumbuko Andrea – Security Guard</li>
             <li> Shija Masongwe - Security Guard</li>
         </div>
-
-    </div>
+</div>
 <!--    <div class="sepContainer1"><!-- --></div>-->
 
 <!--    <div class="row">-->
