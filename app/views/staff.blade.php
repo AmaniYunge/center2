@@ -24,7 +24,7 @@
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Administrative & Project Manager</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/4.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px; width:150px" alt=""/>
+            <section class="boxthreecenter"> <img src="{{asset('images/peter.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px; width:150px" alt=""/>
                 <h3>Peter Raphael</h3>
                 <p>Mr. Raphael is a holder of a Msc. with major in Health Care </p>
                 <a class ="simple" href="#">+ Read more</a> </section>
@@ -40,7 +40,7 @@
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Matron</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/3.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+            <section class="boxthreecenter"> <img src="{{asset('images/matron.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Anna Mihayo</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                 <a class ="simple" href="#">+ Read more</a> </section>
@@ -60,7 +60,7 @@
     <div class="one_fourth lastcolumn" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Accountant</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/5.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+            <section class="boxthreecenter"> <img src="{{asset('images/account.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
                 <h3>Ms. Theodorah Makanza</h3>
                 <p>She attained her diploma course in accountancy from Singida </p>
                 <a class ="simple" href="#">+ Read more</a> </section>

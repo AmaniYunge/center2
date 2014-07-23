@@ -9,8 +9,8 @@
     <div class="sepContainer1"><!-- --></div>
     <div class="row">
         <div class="col-md-3" style="box-shadow: 5px 5px 10px #888888; background-color: #bfd6e4">
-            <h2 style="text-align: center">Board Chair</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/2.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px" alt=""/>
+            <h2 style="padding-left: 20px">Board Chair</h2>
+            <section class="boxthreecenter"> <img src="{{asset('images/chair.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px; width: 125px" alt=""/>
                 <h3>Rev. Charles Luhanga</h3>
                 <p>Rev. Charles Luhanga belongs to FPCT Lowa Mission. Currently, Rev. Luhanga serves as one of the senior church elders in Igunga Parish.</p>
                  </section>
@@ -44,7 +44,7 @@
             <h4>
                 Board Chair
             </h4>
-            <img src="{{asset('images/elias.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
+            <img src="{{asset('images/chair.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
             <p>
                 Rev. Charles Luhanga
             </p>
@@ -84,7 +84,7 @@
             <h4>
                 Member
             </h4>
-            <img src="{{asset('images/pe.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width: 300px">
+            <img src="{{asset('images/matron.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width: 300px">
             <p>
                 Ms. Anna Mihayo
             </p>
@@ -125,7 +125,7 @@
         <h4>
            Member
         </h4>
-        <img src="{{asset('images/peter.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
+        <img src="{{asset('images/account.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
         <p>
             Ms. Theodorah Makanza
         </p>
