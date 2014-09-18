@@ -1,57 +1,56 @@
 @extends('master')
 @section('contents')
 
-<!-- Home Content Part - Slider ==================================================
+<!-- Carousel
 ================================================== -->
-<div class="flexslider">
-    <ul class="slides">
-          <li>
-             <div class="col-md-4">
-                 <div id="divHeaderText" class="page-content">
-                     <div id="divHeaderLine1">Lowa Health Centre!</div><br>
-                     <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
-                         Kahama District.
 
-                     </div>
-                     <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px"><a href="{{url('donation')}}">Donation</a></div>
-             </div>
-             </div>
-              <div class="col-md-8" style="padding: 0px">
-          <img src="{{asset('images/flexslider/slide2.jpg')}}" style="height: 480px;width: 100%">
-           </div>
-      </li>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
 
-        <li>
-            <div class="col-md-8" style="padding: 0px">
-                <img src="{{asset('images/flexslider/slide.jpg')}}" style="height: 480px;width: 100%">
-            </div>
-            <div class="col-md-4">
-                <div id="divHeaderText" class="page-content">
-                    <div id="divHeaderLine1">Lowa Health Centre!</div><br>
-                    <div id="divHeaderLine2">The clinic is located in western part of Tanzania in a small village namely Lowa in
-                        Kahama District.
-                    </div>
-                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px"><a href="{{url('donation')}}">Donation</a></div>
-                </div>
-            </div>
-        </li>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
 
-        <li>
-            <div class="col-md-4">
-                <div id="divHeaderText" class="page-content">
-                    <div id="divHeaderLine1">Need and future plan!</div><br>
-                    <div id="divHeaderLine2">Training of more staff to improve the quality of health services rendered to the
-                        people.
-                    </div>
-                    <div class="btn btn-warning btn-lg" style="font-family: Roboto; margin-top: 20px">Read More</div>
-                </div>
+            <img src="{{asset('images/flexslider/j.jpg')}}" alt="Generic placeholder image" style="width: 100%; height: 590px">
+            <div class="carousel-caption">
+                <h style="font-size:32px; color: #F5F5F5">The clinic is located in western part of Tanzania in a small village namely Lowa in Kahama District!
+                </h><br><br>
+                <a class="btn btn-lg btn-warning" href="{{url('donation')}}" role="button" style="font-size:2em">Donation &raquo;</a>
             </div>
-            <div class="col-md-8" style="padding: 0px">
-                <img src="{{asset('images/flexslider/slide3.jpg')}}" style="height: 480px;width: 100%">
+        </div>
+
+        <div class="item">
+            <img src="{{asset('images/flexslider/k.jpg')}}" alt="Generic placeholder image" style="width: 100%; height: 590px">
+            <div class="carousel-caption"><h style="font-size:32px; color: #F5F5F5">Training of more staff to improve the quality of health services rendered to the people.
+                </h><br><br>
+                <a class="btn btn-lg btn-warning" href="{{url('donation')}}" role="button" style="font-size:2em">Donation &raquo;</a>
             </div>
-        </li>
-         </ul>
+        </div>
+
+        <div class="item">
+            <img src="{{asset('images/flexslider/u.jpg')}}" alt="Generic placeholder image" style="width: 100%; height: 590px">
+            <div class="carousel-caption"><h style="font-size:32px; color: #F5F5F5">Your generous donation can enable us to walk an extra mile in serving the most vulnerable group in the community.
+                </h><br><br>
+
+                <a class="btn btn-lg btn-warning" href="{{url('donation')}}" role="button" style="font-size:2em">Donation &raquo;</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+
+    </a>
 </div>
+
 <!-- Home Content Part - Box One ==================================================
 ================================================== -->
 <div class="blankSeparator"></div>

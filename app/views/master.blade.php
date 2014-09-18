@@ -28,6 +28,8 @@
 {{HTML::style("css/bootstrap.min.css")}}
 {{HTML::style("css/bootstrap.css")}}
 {{HTML::style("css/base.css")}}
+{{HTML::style("css/carousel.css")}}
+{{ HTML::style("font-awesome/css/font-awesome.css") }}
 {{HTML::style("css/skeleton.css")}}
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
@@ -36,7 +38,7 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
     {{HTML::script("js/jquery-1.8.0.min.js")}}
     {{HTML::script("js/jquery.slimscroll.min.js")}}
-
+    {{ HTML::script("js/carousel.js") }}
     <!-- Favicons ==================================================
     ================================================== -->
 
@@ -54,7 +56,9 @@
         <!-- Header | Logo, Menu
             ================================================== -->
         <header>
-            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="" style="height: 80px"/></a></div>
+            <div class="logo" style="padding-top: 30px"><a href="{{url('/')}}" style="color: #8b0000; font-size: 32px; font-weight: 700">Lowa Health Centre</a>
+                <br><span class="text-warning" style="font-size: 18px">fpct health and social welfare department</span></div>
+<!--            <img src="{{asset('images/logo.png')}}" alt="" style="height: 80px"/>-->
             <div class="mainmenu">
                 <div id="mainmenu">
                     <ul class="sf-menu">
