@@ -57,8 +57,8 @@
             ================================================== -->
         <header>
             <div class="logo" style="padding-top: 30px"><a href="{{url('/')}}" style="color: #8b0000; font-size: 32px; font-weight: 700">Lowa Health Centre</a>
-                <br><span class="text-warning" style="font-size: 18px">fpct health and social welfare department</span></div>
-<!--            <img src="{{asset('images/logo.png')}}" alt="" style="height: 80px"/>-->
+                <br><span class="text-warning" style="font-size: 16px">FPCT Health and Social Welfare Department</span></div>
+
             <div class="mainmenu">
                 <div id="mainmenu">
                     <ul class="sf-menu">
@@ -104,19 +104,32 @@
 <div class="container clients">
     <div class="sepContainer"></div>
     <h2>Our Partiners</h2>
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
-    <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/coat.svg')}}" alt="" style="height: 71px"/> </div>
-    <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/muhas.jpg')}}" alt=""  style="height: 71px"/> </div>
-    <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
-    <!-- end one_sixth -->
-    <div class="one_sixth"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
-    <!-- end one_sixth -->
-    <div class="one_sixth lastcolumn"> <img src="{{asset('images/logo.png')}}" alt=""/> </div>
-    <!-- end one_sixth lastCol -->
+    <div class="row-fluid"  >
+        <div class="sepContainer"></div>
+        <h2>Our Partners</h2>
+        <div class="col-md-2">
+            <h style="color: rgb(148, 148, 148); font-size: 18px">Tenhult Filadelfia Kyrkan</h>
+        </div>
+        <div class="col-md-2">
+            <h style="color: rgb(148, 148, 148); font-size: 18px">Ostersund Filadelfia Kyrkan</h>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
 </div>
+
+<div class="blankSeparator"></div>
 <!-- end container -->
 
 <!--Footer ==================================================

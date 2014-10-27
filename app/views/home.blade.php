@@ -44,7 +44,7 @@
     </div>
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-      
+
     </a>
     <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
 
@@ -84,19 +84,14 @@
             <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <div class="inner-div">
                     <h2 style="text-align: center;color: #843534">Latest News</h2>
-                    <h4>News Heading</h4>
+                    <h4><strong>Partnership meeting in Sweden</strong></h4>
                     <p>
                         In May 2014, our administrative and projects manager travelled to Sweden. Among other places, he visited<span class="red"> Ostersund and
-                        Stokholm</span> where he met with our supporters for the water project.
-                        Thanks to the<span class="green"> Ostersund Pentecostal Church Mission Council and Atlascopco Company </span>for the interest to fund the projec
+                        Stokholm</span> where he met with our supporters for water project.
+                        Thanks to the<span class="green"> Ostersund Pentecostal Church Mission Council and Atlascopco Company </span>for the interest to fund the project
                     </p>
                     <hr>
-                    <h4>News Heading</h4>
-                    <p>
-                        Dotphics is my latest <span class="red">responsive</span> Site Template freebie.
-                        Dotphics Template is simple and clean template with a lot attention to detail.
-                        It is suitable for a lot of <span class="green">different</span> business and private uses.
-                    </p>
+
                 </div>
             </div>
     </div>
