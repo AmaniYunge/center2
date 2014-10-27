@@ -103,10 +103,9 @@
 ================================================== -->
 <div class="container clients">
     <div class="sepContainer"></div>
-    <h2>Our Partiners</h2>
+    <h2>Our Partners</h2>
+    <div class="sepContainer"></div>
     <div class="row-fluid"  >
-        <div class="sepContainer"></div>
-        <h2>Our Partners</h2>
         <div class="col-md-2">
             <h style="color: rgb(148, 148, 148); font-size: 18px">Tenhult Filadelfia Kyrkan</h>
         </div>
