@@ -105,9 +105,10 @@
     <div class="sepContainer"></div>
     <h2>Our Partners</h2>
     <div class="sepContainer"></div>
+
     <div class="row-fluid"  >
         <div class="col-md-2">
-            <h style="color: rgb(148, 148, 148); font-size: 18px">Tenhult Filadelfia Kyrkan</h>
+            <h style="color: rgb(148, 148, 148); font-size: 18px">Atlascopco Company</h>
         </div>
         <div class="col-md-2">
             <h style="color: rgb(148, 148, 148); font-size: 18px">Ostersund Filadelfia Kyrkan</h>

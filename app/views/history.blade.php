@@ -8,8 +8,7 @@
     <div class="two_third">
         <section class="aboutoneleft">
             <h2>Historical Background</h2>
-            <p>This institution was established in 1930’s by Swedish missionaries firstly a small dispensary as part and parcel of evangelism
-                which contained some elements of medical care. This kind of social work has gradually developed and upgraded to become a
+            <p>This institution was established in 1930’s by Swedish missionaries firstly as a small dispensary. This kind of social work has gradually developed and upgraded to become a
                 Health Center with 60beds in 1994.
             </p>
             <img class="raster" src="{{asset('images/raster.png')}}" alt=""/>
@@ -37,19 +36,24 @@
     <h2>Our Motivation</h2>
     <div class="toggle-trigger">Mission</div>
     <div class="toggle-container">
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
+        <p>Provide the highest quality health care at affordable cost. </p>
     </div>
     <div class="toggle-trigger">Vission</div>
     <div class="toggle-container">
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
+        <p>Lowa health centre will be recognised as one of the best health care provider in the country</p>
     </div>
     <div class="toggle-trigger">Core Values</div>
     <div class="toggle-container">
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
+        <ul>
+            <li>Excellence - In maintaining a standard of care.</li>
+            <li>Community - To treat the families in the community at affordable cost.</li>
+            <li>Antcorruption - There is no room for corruption in all we do.</li>
+            <li>Motivation - Workforce is one of the most valuable asset.</li>
+        </ul>
     </div>
     <div class="toggle-trigger">Overall Goals</div>
     <div class="toggle-container">
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
+        <p>Enhance the health and well-being of the community we save. </p>
     </div>
     <!-- ENDS Toggle -->
 </div>

@@ -15,12 +15,13 @@
                 <p>Rev. Charles Luhanga belongs to FPCT Lowa Mission. Currently, Rev. Luhanga serves as one of the senior church elders in Igunga Parish.</p>
                  </section>
             <div class="toggle-trigger">
-                <a class ="simple" href="#">+ Read more</a>
+                <a class ="simple" href="#">+ Message from the board chair</a>
             </div>
             <div class="toggle-container">
                 <p>While we value our community by offering them with best health care services, we are facing a number of challenges including shortage of drugs and medical supplies, aging of infrastructures etc. We welcome the involvement of various stakeholders in this challenging but crucial task. Through our work, we will contribute to the improvement of health status in the country.
                     We are grateful for our esteemed staff for their commitment to move forward with this work even for the coming decades!</p>
-                <a class ="simple" href="{{url('cv')}}">+ My CV</a> </div>
+
+            </div>
         </div>
         <div class="col-md-9">
           <p style="font-size: 24px">
@@ -38,13 +39,13 @@
     <p class="lead" style="text-align: center;font-size: 28px">Meet The Board Members</p>
     <div class="sepContainer1"><!-- --></div>
     <p class="lead">The institution operates under the board which meets on quarterly basis in a year and the doctor in charge being its secretary. The board comprises of
-        8 members and where the chair is chosen among these members coming outside the health sector. The board members are</p>
+        8 members and the chair is chosen among these members coming outside the health sector. The board members are</p>
     <div class="row">
         <div class="col-md-3">
             <h4>
                 Board Chair
             </h4>
-            <img src="{{asset('images/chair.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
+            <img src="{{asset('images/chair.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 200px">
             <p>
                 Rev. Charles Luhanga
             </p>
@@ -58,7 +59,7 @@
             <h4>
                 Board Secretary
             </h4>
-            <img src="{{asset('images/secretary.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
+            <img src="{{asset('images/2.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
             <p>
                 Dr. Simon Gabriel
 
@@ -84,7 +85,7 @@
             <h4>
                 Member
             </h4>
-            <img src="{{asset('images/matron.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width: 300px">
+            <img src="{{asset('images/matron.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width: 200px">
             <p>
                 Ms. Anna Mihayo
             </p>
@@ -118,14 +119,14 @@
 
         </p>
         <p style="color: #269abc">
-            Politician Representative
+            Policy Maker Representative
         </p>
     </div>
     <div class="col-md-3">
         <h4>
            Member
         </h4>
-        <img src="{{asset('images/account.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 300px">
+        <img src="{{asset('images/account.jpg')}}" class="img-thumbnail img-rounded img-responsive" style="margin:5px 0px 15px; height: 200px; width: 180px">
         <p>
             Ms. Theodorah Makanza
         </p>

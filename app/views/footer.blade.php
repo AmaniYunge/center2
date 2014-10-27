@@ -16,7 +16,7 @@
                         <i class="general foundicon-mail icon"></i>
                         <span class="field">Email:</span>
                         <br />
-                        <a href="mailto:info@yourdomain.com" title="Email">lowahealtthcentre@gmail.com</a>
+                        <a href="mailto:info@yourdomain.com" title="Email">lowahealthcentre@gmail.com</a>
                     </li>
                     <li>
                         <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
@@ -51,7 +51,7 @@
             <h3>About</h3>
             <p>Lowa Clinic is health institution established by Swedish missionaries firstly a small
                 dispensary.
-            <p>Visit <a href="/" >Our Site</a> and find more interesting things.</p>
+            <p>Visit Our Site and find more interesting things.</p>
         </div>
     </div>
     <!-- container ends here -->

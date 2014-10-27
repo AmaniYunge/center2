@@ -75,7 +75,7 @@
         <div class="col-md-6" style="box-shadow: 1px 1px 5px #888888;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <p style="text-align: center;font-size: 28px; color: #843534">Welcome..!</p>
                 <p style="font-size: 17px">
-                    Lowa Clinic is health institution established by<span class="red"> Swedish missionaries </span>firstly a small
+                    Lowa Clinic is health institution established by<span class="red"> Swedish missionaries </span>firstly as a small
                     dispensary. This kind of the social work within <span class="green">The Free Pentecostal Church in
                     Tanzania (FPCT)</span> was part and parcel of evangelism which already started in the 1930’s.
                     Gradually it has developed and upgraded to become a Health Centre in 1995.
@@ -116,20 +116,20 @@
             <h3 style="text-align: center">Curative Services</h3><br>
             <p> The services are open from Monday to Friday as
                 normal working days but Saturdays, Sundays and Public Holidays are also open to handle emergency cases.<br>Malaria and other respiratory diseases have been
-                the major causes for patients attending to this institution </p>
-            <div class="toggle-trigger">
-                <a class ="simple" href="#">+ Learn more</a></div>
-            <div class="toggle-container">
-
-                <li style="color: #ac2925">Outpatient Department Services (OPDS)</li>
-                    <p>This is the first reception point where patients are seen before sent to other
-                    departments.</p>
-
-                <li style="color: #ac2925">Inpatient Department Services (IPDS) </li>
-                    <p>Currently, the inpatients care services have about 60 beds divided over four wards.
-                        These are:- General ward (30 beds), Labour ward (12 beds), Male ward (8 beds) and Private ward (10 beds).</p>
-
-            </div>
+                the major causes for patients attending to this... </p>
+<!--            <div class="toggle-trigger">-->
+<!--                <a class ="simple" href="#">+ Learn more</a></div>-->
+<!--            <div class="toggle-container">-->
+<!---->
+<!--                <li style="color: #ac2925">Outpatient Department Services (OPDS)</li>-->
+<!--                    <p>This is the first reception point where patients are seen before sent to other-->
+<!--                    departments.</p>-->
+<!---->
+<!--                <li style="color: #ac2925">Inpatient Department Services (IPDS) </li>-->
+<!--                    <p>Currently, the inpatients care services have about 60 beds divided over four wards.-->
+<!--                        These are:- General ward (30 beds), Labour ward (12 beds), Male ward (8 beds) and Private ward (10 beds).</p>-->
+<!---->
+<!--            </div>-->
         </section>
     </div>
     <!-- one-third column ends here -->
@@ -139,20 +139,20 @@
             <p>Prevention of preventable diseases has remained one of our major goals.</p>
             <li style="color: #ac2925">Reproductive health services </li>
             <p> Static services at facilities are supported by mobile clinic in the communities.
-                It the policy of the government for Mother and Child Health care to be provided free of
+                It the policy of the government for Mother and Child Health care to be provided free...
                 </p>
 </p>
-            <div class="toggle-trigger">
-                <a class ="simple" href="#">+ Learn more</a></div>
-            <div class="toggle-container">
-                <p> charge which include immunization, child growth monitoring, antenatal care and family planning.<br>As the major causes of deaths for mothers and children are associated with poor hygiene, ignorance,
-                    malnutrition, poor physical infrastructure, these services contribute to the reduction of maternal and
-                    infant mortality rates in the communities.</p>
-                <li style="color: #ac2925"> Health Education including prevention of HIV/AIDS.</li>.
-                <p> There is no special program for health education but this is normally integrated in reproductive health services.
-
-                </p>
-                 </div>
+<!--            <div class="toggle-trigger">-->
+<!--                <a class ="simple" href="#">+ Learn more</a></div>-->
+<!--            <div class="toggle-container">-->
+<!--                <p> charge which include immunization, child growth monitoring, antenatal care and family planning.<br>As the major causes of deaths for mothers and children are associated with poor hygiene, ignorance,-->
+<!--                    malnutrition, poor physical infrastructure, these services contribute to the reduction of maternal and-->
+<!--                    infant mortality rates in the communities.</p>-->
+<!--                <li style="color: #ac2925"> Health Education including prevention of HIV/AIDS.</li>.-->
+<!--                <p> There is no special program for health education but this is normally integrated in reproductive health services.-->
+<!---->
+<!--                </p>-->
+<!--                 </div>-->
         </section>
     </div>
     <!-- one-third column ends here -->
@@ -165,15 +165,15 @@
 
 
             </p>
-            <div class="toggle-trigger">
-                <a class ="simple" href="#">+ Learn more</a></div>
-            <div class="toggle-container">
-                <p> more examinations will continue to be introduced.</p>
-                <h4 style="color: #ac2925"> Dental services</h4>
-                  <p>These are mainly dental checkups,dental extractions and health education.
-                      For those patients requiring dental fillings and scaling, they are referred to
-                      Nkinga Referral Hospital where major procedures are undertaken. </p>
-            </div>
+<!--            <div class="toggle-trigger">-->
+<!--                <a class ="simple" href="#">+ Learn more</a></div>-->
+<!--            <div class="toggle-container">-->
+<!--                <p> more examinations will continue to be introduced.</p>-->
+<!--                <h4 style="color: #ac2925"> Dental services</h4>-->
+<!--                  <p>These are mainly dental checkups,dental extractions and health education.-->
+<!--                      For those patients requiring dental fillings and scaling, they are referred to-->
+<!--                      Nkinga Referral Hospital where major procedures are undertaken. </p>-->
+<!--            </div>-->
         </section>
     </div>
     <!-- one-third column ends here -->
