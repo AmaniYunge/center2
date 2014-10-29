@@ -84,7 +84,7 @@
             <div class="col-md-3" style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px">
                 <div class="inner-div">
                     <h2 style="text-align: center;color: #843534">Latest News</h2>
-                    <h4><strong>Partnership meeting in Sweden</strong></h4>
+                    <h4><strong>Partnership Meeting </strong></h4>
                     <p>
                         In May 2014, our administrative and projects manager travelled to Sweden. Among other places, he visited<span class="red"> Ostersund and
                         Stokholm</span> where he met with our supporters for water project.

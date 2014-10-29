@@ -65,7 +65,7 @@
 
             </p>
             <p style="color: #269abc">
-                Doctor in charge<br/>
+                Doctor incharge<br/>
                 Lowa Health Centre
             </p>
         </div>
@@ -85,7 +85,7 @@
             <h4>
                 Member
             </h4>
-            <img src="{{asset('images/matron.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width: 200px">
+            <img src="{{asset('images/matron.jpg')}}" class="img-thumbnail img-rounded img-responsive"style="margin:5px 0px 15px; height: 200px; width:180px">
             <p>
                 Ms. Anna Mihayo
             </p>

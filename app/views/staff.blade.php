@@ -40,7 +40,7 @@
     <div class="one_fourth" style="box-shadow: 5px 5px 10px #888888">
         <div class="toggle-trigger">
             <h2 style="text-align: center">Matron</h2>
-            <section class="boxthreecenter"> <img src="{{asset('images/matron.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:150px" alt=""/>
+            <section class="boxthreecenter"> <img src="{{asset('images/matron.jpg')}}" style="box-shadow: 1px 1px 5px #888888;height: 130px;width:120px" alt=""/>
                 <h3>Anna Mihayo</h3>
                 <p>Ms. Anna Mihayo attended her nursing training at Nkinga Nursing College...  </p>
                 <a class ="simple" href="#">+ Read more</a> </section>

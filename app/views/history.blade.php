@@ -36,7 +36,7 @@
     <h2>Our Motivation</h2>
     <div class="toggle-trigger">Mission</div>
     <div class="toggle-container">
-        <p>Provide the highest quality health care at affordable cost. </p>
+        <p>Provide the highest quality health care at affordable cost</p>
     </div>
     <div class="toggle-trigger">Vission</div>
     <div class="toggle-container">
@@ -45,15 +45,15 @@
     <div class="toggle-trigger">Core Values</div>
     <div class="toggle-container">
         <ul>
-            <li>Excellence - In maintaining a standard of care.</li>
-            <li>Community - To treat the families in the community at affordable cost.</li>
-            <li>Antcorruption - There is no room for corruption in all we do.</li>
-            <li>Motivation - Workforce is one of the most valuable asset.</li>
+            <li style="font-family: 'Lato'; font-size: 16px">Excellence - In maintaining a standard of care</li>
+            <li  style="font-family: 'Lato'; font-size: 16px">Community - To treat the families in the community at affordable cost</li>
+            <li style="font-family: 'Lato'; font-size: 16px">Anti corruption - There is no room for corruption in all we do</li>
+            <li style="font-family: 'Lato'; font-size: 16px">Motivation - Workforce is one of the most valuable asset</li>
         </ul>
     </div>
     <div class="toggle-trigger">Overall Goals</div>
     <div class="toggle-container">
-        <p>Enhance the health and well-being of the community we save. </p>
+        <p>Enhance the health and well-being of the community we save </p>
     </div>
     <!-- ENDS Toggle -->
 </div>
