@@ -39,7 +39,7 @@
         <div id="contactForm">
             <h2>Leave a comment</h2>
             <div class="sepContainer"></div>
-            <form action="process.php" method="post" id="contact_form">
+            <form method="post" class="form-horizontal" action="{{ url("contact")}}" id="contact_form">
                 <div class="name">
                     <label for="name">Your Name:</label>
                     <p> Please enter your full name</p>
@@ -64,4 +64,33 @@
     </div>
 </div>
 <div class="blankSeparator2"></div>
+
+
+<script>
+    $(document).ready(function (){
+
+
+        $('#contacts').on('submit', function(e) {
+            e.preventDefault();
+            $("#output").html("<h3><i class='fa fa-spin fa-spinner '></i><span class='text-success' style='font-size:12px;'>Making changes please wait...</span><h3>");
+            $(this).ajaxSubmit({
+                target: '#output',
+                success:  afterSuccess
+            });
+
+        });
+
+
+
+        function afterSuccess(){
+            $('#FileUploader').resetForm();
+            setTimeout(function() {
+                $("#output").html("");
+            }, 3000);
+            // $("#listperson").load("<?php echo url("individuals/list") ?>")
+            $('#contacts').resetForm();
+        }
+    });
+
+</script>
 @stop

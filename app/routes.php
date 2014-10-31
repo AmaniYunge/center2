@@ -88,3 +88,9 @@ Route::post('admin/board/edit/{id}',array('uses'=>'BoardController@update'));
 Route::get('admin/cv',array('uses'=>'CvController@index'));
 
 Route::get('admin/cv/add',array('uses'=>'CvController@create'));
+
+
+/**
+ * managing mails
+ */
+Route::post('contact',array('as'=>'contact', 'uses'=>'HomeController@enquery'));
