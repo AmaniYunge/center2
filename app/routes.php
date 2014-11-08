@@ -53,10 +53,6 @@ Route::get('contact', function()
     return View::make('contact');
 });
 
-Route::get('orportunities', function()
-{
-    return View::make('orportunities');
-});
 
 Route::get('donation', function()
 {
@@ -93,4 +89,4 @@ Route::get('admin/cv/add',array('uses'=>'CvController@create'));
 /**
  * managing mails
  */
-Route::post('contact',array('as'=>'contact', 'uses'=>'HomeController@enquery'));
+Route::post('contacts',array('as'=>'contacts', 'uses'=>'HomeController@enquery'));

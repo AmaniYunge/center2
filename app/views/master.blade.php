@@ -29,7 +29,7 @@
 {{HTML::style("css/bootstrap.css")}}
 {{HTML::style("css/base.css")}}
 {{HTML::style("css/carousel.css")}}
-{{ HTML::style("font-awesome/css/font-awesome.css") }}
+{{HTML::style("font-awesome/css/font-awesome.css") }}
 {{HTML::style("css/skeleton.css")}}
 {{HTML::style("css/screen.css")}}
 {{HTML::style("css/prettyPhoto.css")}}
@@ -84,11 +84,11 @@
                     <select>
                         <option value="">Navigation</option>
                         <option value="{{url('/')}}">Home</option>
-                        <option value="{{url('about')}}">About</option>
-                        <option value="{{url('servises')}}">Services</option>
-                        <option value="{{url('gallery')}}">Portfolio Gallery</option>
+                        <option value="{{url('history')}}">History</option>
+                        <option value="{{url('leadership')}}">Leadership</option>
+                        <option value="{{url('staff')}}">Staff</option>
+                        <option value="{{url('services')}}">Services</option>
                         <option value="{{url('projects')}}">Projects</option>
-                        <option value="{{url('oportunities')}}">Opportunities</option>
                         <option value="{{url('contact')}}">Contact</option>
                     </select>
                 </form>
@@ -152,18 +152,18 @@
 
 <!-- Main js files -->
 {{HTML::script("js/screen.js")}}
-<!--<!-- Tooltip -->-->
+<!--<!-- Tooltip -->
 {{HTML::script("js/poshytip-1.0/src/jquery.poshytip.min.js")}}
 <!-- Tabs -->
 {{HTML::script("js/tabs.js")}}
-<!--<!-- Tweets -->-->
+<!--<!-- Tweets -->
 {{HTML::script("js/jquery.tweetable.js")}}
-<!--<!-- Include prettyPhoto -->-->
+<!--<!-- Include prettyPhoto -->
 {{HTML::script("js/jquery.prettyPhoto.js")}}
-<!--<!-- Include Superfish -->-->
+<!--<!-- Include Superfish -->
 {{HTML::script("js/superfish.js")}}
 {{HTML::script("js/hoverIntent.js")}}
-<!--<!-- Flexslider -->-->
+<!--<!-- Flexslider -->
 {{HTML::script("js/jquery.flexslider.js")}}
 {{HTML::script("js/modernizr.custom.29473.js")}}
 {{HTML::script("js/carousel.js")}}

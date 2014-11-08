@@ -54,18 +54,19 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+    'from' => array('address' => 'lowahealthcentre@gmail.com', 'name' => 'Lowa Health Centre'),
 
-	/*
-	|--------------------------------------------------------------------------
-	| E-Mail Encryption Protocol
-	|--------------------------------------------------------------------------
-	|
-	| Here you may specify the encryption protocol that should be used when
-	| the application send e-mail messages. A sensible default using the
-	| transport layer security protocol should provide great security.
-	|
-	*/
+
+    /*
+    |--------------------------------------------------------------------------
+    | E-Mail Encryption Protocol
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify the encryption protocol that should be used when
+    | the application send e-mail messages. A sensible default using the
+    | transport layer security protocol should provide great security.
+    |
+    */
 
 	'encryption' => 'tls',
 
@@ -80,7 +81,7 @@ return array(
 	|
 	*/
 
-	'username' => null,
+    'username' => 'lowahealthcentre@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +94,7 @@ return array(
 	|
 	*/
 
-	'password' => null,
+    'password' => 'lowa2014',
 
 	/*
 	|--------------------------------------------------------------------------

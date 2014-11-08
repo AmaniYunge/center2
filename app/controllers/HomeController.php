@@ -30,22 +30,19 @@ class HomeController extends BaseController {
 
 
         if(Input::get("email") != "" && Input::get("name") !=""){
-//            Visitor_email::create(array(
-//                'name'      =>Input::get("name"),
-//                'tel'     =>Input::get("telephone"),
-//                'email'       =>Input::get("email"),
-//               'message'   =>Input::get("description")
-//            ));
+            $data = array("name"=>Input::get("name"),"email"=>Input::get("email"),"tel"=>Input::get("tel"),"contents"=>Input::get("contents"));
+            Mail::send('contact.enquery',$data, function($message){
+                $message->from(Input::get("email"), 'Lowa Health Centre Visitor');
+                $message->to('lowahealthcentre@gmail.com', 'Lowa Health Centre')->subject('Message From Lowa user');
 
-            Mail::send('enquery',array('name'=>Input::get("name"),'email'=>Input::get("email"),'tel'=>Input::get("tel"),'description'=>Input::get("message")), function($message){
-                $message->from(Input::get('email'))->to("lowahealthcentre@gmail.com", Input::get('name'))->subject("Contacts form Lowa Health Centre Visitor");
             });
+
 
             return "<h4 class='text-error'>message has been sent..</h4>";
 
 
         }else{
-//            return "<h4 class='text-error'>Compulsory field(s) empty.. </h4>";
+            return "<h4 class='text-error'>Compulsory field(s) empty.. </h4>";
         }
     }
 

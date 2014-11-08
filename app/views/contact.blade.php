@@ -39,24 +39,24 @@
         <div id="contactForm">
             <h2>Leave a comment</h2>
             <div class="sepContainer"></div>
-            <form method="post" class="form-horizontal" action="{{ url("contact")}}" id="contact_form">
+            <form method="post" class="form-horizontal" action="{{ url("contacts")}}" id="contact_form">
                 <div class="name">
                     <label for="name">Your Name:</label>
                     <p> Please enter your full name</p>
-                    <input id=name name=email type=text placeholder="e.g. Mr. Peter Raphael" required />
+                    <input id="name" name="name" type="text" placeholder="e.g. Mr. Peter Raphael"  required="required" />
                 </div>
                 <div class="email">
                     <label for="email">Your Email:</label>
                     <p> Please enter your email address</p>
-                    <input id=email name=email type=email placeholder="example@domain.com" required />
+                    <input id="email" name="email" type="email" placeholder="example@domain.com"  required="required" />
                 </div>
                 <div class="message">
                     <label for="message">Your Message:</label>
                     <p> Please enter your question</p>
-                    <textarea id=message name=message rows=6 cols=10 required></textarea>
+                    <textarea id="message" name="message" rows="6" cols="10"  required="required"></textarea>
                 </div>
-                <div id="loader">
-                    <input type="submit" value="Submit" />
+                <div id="">
+                    <button class="btn btn-small btn-secondary" type="submit" >Submit</button>
                 </div>
             </form>
         </div>
@@ -70,7 +70,7 @@
     $(document).ready(function (){
 
 
-        $('#contacts').on('submit', function(e) {
+        $('#con').on('submit', function(e) {
             e.preventDefault();
             $("#output").html("<h3><i class='fa fa-spin fa-spinner '></i><span class='text-success' style='font-size:12px;'>Making changes please wait...</span><h3>");
             $(this).ajaxSubmit({
